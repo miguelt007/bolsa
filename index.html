@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Índice PSI - Atualização Automática</title>
+  <style>
+    body { font-family: sans-serif; margin: 2em; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1em; }
+    th, td { padding: 8px; border: 1px solid #ccc; }
+    th { background: #eee; }
+    .up { color: green; }
+    .down { color: red; }
+  </style>
+</head>
+<body>
+  <h1>Índice PSI - Atualizado a cada 3 minutos</h1>
+  <table id="tabela">
+    <thead>
+      <tr>
+        <th>Empresa</th><th>Cotação</th><th>Variação</th><th>Volume</th><th>Capitalização</th><th>Hora</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+    async function carregarDados() {
+      const res = await fetch('data/psi.json');
+      const dados = await res.json();
+      const tbody = document.querySelector("tbody");
+      tbody.innerHTML = "";
+      dados.forEach(({ empresa, cotacao, variacao, volume, capitalizacao, hora }) => {
+        const linha = document.createElement("tr");
+        linha.innerHTML = `
+          <td>${empresa}</td>
+          <td>${cotacao}</td>
+          <td class="${variacao.startsWith('-') ? 'down' : 'up'}">${variacao}</td>
+          <td>${volume}</td>
+          <td>${capitalizacao}</td>
+          <td>${hora}</td>
+        `;
+        tbody.appendChild(linha);
+      });
+    }
+
+    carregarDados();
+    setInterval(carregarDados, 180000); // Atualiza a cada 3 minutos
+  </script>
+</body>
+</html>
