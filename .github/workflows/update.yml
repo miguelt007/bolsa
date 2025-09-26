@@ -21,8 +21,9 @@ jobs:
 
       - name: Commit e push
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add data/psi.json
-          git commit -m "Atualização automática"
-          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/miguelt007/bolsa.git HEAD:main
+    git config user.name "Miguel T"
+    git config user.email "miguelt007@gmail.com"
+    git add data/psi.json
+    git commit -m "Atualização automática"
+    git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/miguelt007/bolsa.git
+    git push origin HEAD:main
