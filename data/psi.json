@@ -6,25 +6,25 @@
     "minimo": "16.76",
     "variacao_pct": "16.43",
     "volume": "+0.96%",
-    "hora": "435.44K"
+    "hora": "441.09K"
   },
   {
     "empresa": "",
     "cotacao": "Jeronimo Martins",
-    "maximo": "20.44",
+    "maximo": "20.42",
     "minimo": "20.52",
     "variacao_pct": "20.30",
-    "volume": "-0.20%",
-    "hora": "256.76K"
+    "volume": "-0.29%",
+    "hora": "262.71K"
   },
   {
     "empresa": "",
     "cotacao": "EDP",
-    "maximo": "4.002",
+    "maximo": "3.998",
     "minimo": "4.006",
     "variacao_pct": "3.958",
-    "volume": "+0.18%",
-    "hora": "1.47M"
+    "volume": "+0.08%",
+    "hora": "1.5M"
   },
   {
     "empresa": "",
@@ -38,11 +38,11 @@
   {
     "empresa": "",
     "cotacao": "Banco Comercial",
-    "maximo": "0.7504",
+    "maximo": "0.7502",
     "minimo": "0.7526",
     "variacao_pct": "0.7372",
-    "volume": "+2.10%",
-    "hora": "39.11M"
+    "volume": "+2.07%",
+    "hora": "39.64M"
   },
   {
     "empresa": "",
@@ -51,16 +51,16 @@
     "minimo": "3.276",
     "variacao_pct": "3.248",
     "volume": "+0.31%",
-    "hora": "320.89K"
+    "hora": "325.89K"
   },
   {
     "empresa": "",
     "cotacao": "Mota Engil",
-    "maximo": "5.070",
+    "maximo": "5.055",
     "minimo": "5.155",
     "variacao_pct": "5.035",
-    "volume": "+0.10%",
-    "hora": "1.45M"
+    "volume": "-0.20%",
+    "hora": "1.47M"
   },
   {
     "empresa": "",
@@ -83,11 +83,11 @@
   {
     "empresa": "",
     "cotacao": "Sonae",
-    "maximo": "1.3280",
+    "maximo": "1.3260",
     "minimo": "1.3280",
     "variacao_pct": "1.3080",
-    "volume": "+1.37%",
-    "hora": "470.99K"
+    "volume": "+1.22%",
+    "hora": "475.29K"
   },
   {
     "empresa": "",
