@@ -1,1 +1,107 @@
-[]
+[
+  {
+    "empresa": "Galp Energia",
+    "cotacao": "16.61",
+    "variacao": "16.70",
+    "volume": "+0.15%",
+    "hora": "258.32K"
+  },
+  {
+    "empresa": "Jeronimo Martins",
+    "cotacao": "20.42",
+    "variacao": "20.52",
+    "volume": "-0.29%",
+    "hora": "202.71K"
+  },
+  {
+    "empresa": "EDP",
+    "cotacao": "3.990",
+    "variacao": "4.006",
+    "volume": "-0.13%",
+    "hora": "1.14M"
+  },
+  {
+    "empresa": "Altri",
+    "cotacao": "5.070",
+    "variacao": "5.130",
+    "volume": "-0.59%",
+    "hora": "362.36K"
+  },
+  {
+    "empresa": "Banco Comercial",
+    "cotacao": "0.7478",
+    "variacao": "0.7490",
+    "volume": "+1.74%",
+    "hora": "26.45M"
+  },
+  {
+    "empresa": "The Navigator",
+    "cotacao": "3.260",
+    "variacao": "3.276",
+    "volume": "0.00%",
+    "hora": "276.12K"
+  },
+  {
+    "empresa": "Mota Engil",
+    "cotacao": "5.125",
+    "variacao": "5.155",
+    "volume": "+1.18%",
+    "hora": "952.87K"
+  },
+  {
+    "empresa": "REN",
+    "cotacao": "2.950",
+    "variacao": "2.955",
+    "volume": "0.00%",
+    "hora": "75.62K"
+  },
+  {
+    "empresa": "Semapa",
+    "cotacao": "18.34",
+    "variacao": "18.42",
+    "volume": "+0.77%",
+    "hora": "12.04K"
+  },
+  {
+    "empresa": "Sonae",
+    "cotacao": "1.3260",
+    "variacao": "1.3280",
+    "volume": "+1.22%",
+    "hora": "439.7K"
+  },
+  {
+    "empresa": "Nos SGPS SA",
+    "cotacao": "3.835",
+    "variacao": "3.845",
+    "volume": "+0.79%",
+    "hora": "159.34K"
+  },
+  {
+    "empresa": "EDP Renovaveis",
+    "cotacao": "11.30",
+    "variacao": "11.42",
+    "volume": "-0.18%",
+    "hora": "363.47K"
+  },
+  {
+    "empresa": "Corticeira Amorim",
+    "cotacao": "7.23",
+    "variacao": "7.27",
+    "volume": "+0.28%",
+    "hora": "47.72K"
+  },
+  {
+    "empresa": "Ibersol",
+    "cotacao": "10.15",
+    "variacao": "10.25",
+    "volume": "+1.70%",
+    "hora": "36.64K"
+  },
+  {
+    "empresa": "CTT Correios de Portugal SA",
+    "cotacao": "7.29",
+    "variacao": "7.31",
+    "volume": "0.00%",
+    "hora": "74.41K"
+  }
+]
