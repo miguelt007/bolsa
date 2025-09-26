@@ -8,7 +8,8 @@ async def main():
         browser = await p.chromium.launch()
         page = await browser.new_page()
         await page.goto("https://www.jornaldenegocios.pt/cotacoes/indice/PSI")
-        await page.wait_for_selector(".table-responsive tr")
+        await page.wait_for_timeout(8000)  # Espera 8 segundos
+
         html = await page.content()
         await browser.close()
 
@@ -17,7 +18,6 @@ async def main():
         dados = []
 
         for i, linha in enumerate(linhas):
-            if i == 0: continue
             cols = linha.find_all("td")
             if len(cols) >= 6:
                 dados.append({
