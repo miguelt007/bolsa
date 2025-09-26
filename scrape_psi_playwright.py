@@ -8,7 +8,16 @@ async def main():
         browser = await p.chromium.launch()
         page = await browser.new_page()
         await page.goto("https://www.jornaldenegocios.pt/cotacoes/indice/PSI")
-        await page.wait_for_timeout(8000)  # Espera 8 segundos
+
+        # Aceitar cookies se aparecer
+        try:
+            await page.click("button:has-text('Aceitar')", timeout=3000)
+        except:
+            pass  # Ignora se não existir
+
+        # Simula scroll para forçar carregamento
+        await page.mouse.wheel(0, 1000)
+        await page.wait_for_timeout(6000)
 
         html = await page.content()
         await browser.close()
