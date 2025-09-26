@@ -33,7 +33,7 @@
     async function carregarDados() {
       const url = "https://api.codetabs.com/v1/proxy?quest=https://www.jornaldenegocios.pt/cotacoes/indice/PSI";
       try {
-        const res = await fetch(url);
+        const res = await fetch('data/psi.json');
         const html = await res.text();
         const parser = new DOMParser();
         const doc = parser.parseFromString(html, "text/html");
