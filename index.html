@@ -13,6 +13,12 @@
     }
     h1 {
       text-align: center;
+      margin-bottom: 0.5rem;
+    }
+    #last-update {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #555;
       margin-bottom: 1rem;
     }
     .table-container {
@@ -67,6 +73,7 @@
 </head>
 <body>
   <h1>📊 PSI 20 - Atualização Automática</h1>
+  <div id="last-update">Última atualização: <span id="update-time">--:--:--</span></div>
   <div class="table-container">
     <table id="psi-table">
       <thead>
@@ -89,12 +96,19 @@
       .then(res => res.json())
       .then(data => {
         const tbody = document.querySelector("#psi-table tbody");
+        const updateTime = document.getElementById("update-time");
         tbody.innerHTML = "";
+
+        let latestTime = "00:00:00";
 
         data.forEach(item => {
           const variacao = item.variacao_pct || "";
           const classe = variacao.includes("-") ? "down" : "up";
           const variacaoFormatada = `<span class="${classe}">${variacao}</span>`;
+
+          if (item.hora && item.hora > latestTime) {
+            latestTime = item.hora;
+          }
 
           const row = document.createElement("tr");
           row.innerHTML = `
@@ -108,6 +122,8 @@
           `;
           tbody.appendChild(row);
         });
+
+        updateTime.textContent = latestTime;
       });
 
     function sortTable(colIndex) {
@@ -124,6 +140,11 @@
       const tbody = table.querySelector("tbody");
       rows.forEach(row => tbody.appendChild(row));
     }
+
+    // ⏱️ Atualização automática a cada 5 minutos
+    setTimeout(() => {
+      location.reload();
+    }, 300000);
   </script>
 </body>
 </html>
