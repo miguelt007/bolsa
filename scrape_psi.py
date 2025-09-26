@@ -1,34 +1,28 @@
 import requests
-from bs4 import BeautifulSoup
+import re
 import json
 
 url = "https://www.jornaldenegocios.pt/cotacoes/indice/PSI"
-html = requests.get(url).text
-soup = BeautifulSoup(html, "html.parser")
+headers = { "User-Agent": "Mozilla/5.0" }
+html = requests.get(url, headers=headers).text
 
-tabela = soup.find("div", class_="table-responsive")
-if not tabela:
-    raise Exception("❌ Tabela não encontrada. O layout da página pode ter mudado.")
-
-linhas = tabela.find_all("tr")[1:]  # Ignora cabeçalho
+# Regex para extrair blocos de empresas
+padrao = re.compile(r'([A-ZÀ-Úa-zà-ú\\s\\-]+?)\\s+([\\d,]+)€\\s+([\\-\\+\\d,]+%)\\s+([\\d\\.]+)\\s+([\\d\\.]+m€)\\s+(\\d{2}:\\d{2})')
+matches = padrao.findall(html)
 
 dados = []
-for linha in linhas:
-    cols = linha.find_all("td")
-    if len(cols) >= 6:
-        dados.append({
-            "empresa": cols[0].text.strip(),
-            "cotacao": cols[1].text.strip(),
-            "variacao": cols[2].text.strip(),
-            "volume": cols[3].text.strip(),
-            "capitalizacao": cols[4].text.strip(),
-            "hora": cols[5].text.strip()
-        })
-
-print("🔍 Dados extraídos:")
-print(json.dumps(dados, indent=2, ensure_ascii=False))
+for m in matches:
+    empresa, cotacao, variacao, volume, capitalizacao, hora = m
+    dados.append({
+        "empresa": empresa.strip(),
+        "cotacao": cotacao.replace(",", ".") + "€",
+        "variacao": variacao,
+        "volume": volume,
+        "capitalizacao": capitalizacao,
+        "hora": hora
+    })
 
 with open("data/psi.json", "w", encoding="utf-8") as f:
     json.dump(dados, f, ensure_ascii=False, indent=2)
 
-print("✅ psi.json gerado com sucesso.")
+print(f"✅ {len(dados)} empresas extraídas com sucesso.")
