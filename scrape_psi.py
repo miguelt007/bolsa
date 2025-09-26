@@ -15,8 +15,10 @@ if response.status_code != 200:
     raise Exception(f"Erro na API: {response.status_code}")
 
 dados_brutos = response.json()
-dados_filtrados = []
+print("🔍 Dados recebidos da API:")
+print(json.dumps(dados_brutos, indent=2, ensure_ascii=False))  # Log para debugging
 
+dados_filtrados = []
 for item in dados_brutos:
     dados_filtrados.append({
         "indice": item.get("name"),
@@ -28,3 +30,5 @@ for item in dados_brutos:
 
 with open("data/psi.json", "w", encoding="utf-8") as f:
     json.dump(dados_filtrados, f, ensure_ascii=False, indent=2)
+
+print("✅ psi.json gerado com sucesso.")
