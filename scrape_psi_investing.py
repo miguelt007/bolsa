@@ -31,4 +31,4 @@ for linha in linhas:
 with open("data/psi.json", "w", encoding="utf-8") as f:
     json.dump(dados, f, ensure_ascii=False, indent=2)
 
-print(f"✅ {len(dados)} empresas extraídas com sucesso.")
+print(f"✅ ${len(dados)} empresas extraídas com sucesso.")
