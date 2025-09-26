@@ -16,7 +16,7 @@ dados = []
 
 for linha in linhas:
     cols = linha.find_all("td")
-    if len(cols) >= 8:
+    if len(cols) >= 9:
         dados.append({
             "empresa": cols[1].text.strip(),
             "cotacao": cols[2].text.strip(),
