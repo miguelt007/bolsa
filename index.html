@@ -31,12 +31,12 @@
 
   <script>
     async function carregarDados() {
-      const url = "https://api.allorigins.win/get?url=" + encodeURIComponent("https://www.jornaldenegocios.pt/cotacoes/indice/PSI");
+      const url = "https://api.codetabs.com/v1/proxy?quest=https://www.jornaldenegocios.pt/cotacoes/indice/PSI";
       try {
         const res = await fetch(url);
-        const data = await res.json();
+        const html = await res.text();
         const parser = new DOMParser();
-        const doc = parser.parseFromString(data.contents, "text/html");
+        const doc = parser.parseFromString(html, "text/html");
         const linhas = doc.querySelectorAll(".table-responsive tr");
         const tbody = document.querySelector("#tabela-psi tbody");
         tbody.innerHTML = "";
