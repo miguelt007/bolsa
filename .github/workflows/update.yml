@@ -10,11 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Clona o repositório
+      # 1. Clona o repositório com autenticação via GH_PAT
       - name: Checkout do repositório
         uses: actions/checkout@v3
         with:
-        token: ${{ secrets.GH_PAT }}
+          token: ${{ secrets.GH_PAT }}
 
       # 2. Instala as dependências necessárias para scraping
       - name: Instalar dependências
@@ -33,5 +33,4 @@ jobs:
           git config --global user.email "miguel@example.com"
           git add data/psi.json
           git commit -m "Atualização automática" || echo "Nada para commitar"
-          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/miguelt007/bolsa.git
           git push origin HEAD:main
