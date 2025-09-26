@@ -7,6 +7,9 @@ html = requests.get(url).text
 soup = BeautifulSoup(html, "html.parser")
 
 tabela = soup.find("div", class_="table-responsive")
+if not tabela:
+    raise Exception("❌ Tabela não encontrada. O layout da página pode ter mudado.")
+
 linhas = tabela.find_all("tr")[1:]  # Ignora cabeçalho
 
 dados = []
@@ -22,11 +25,9 @@ for linha in linhas:
             "hora": cols[5].text.strip()
         })
 
-# Log para debugging
 print("🔍 Dados extraídos:")
 print(json.dumps(dados, indent=2, ensure_ascii=False))
 
-# Guardar no ficheiro JSON
 with open("data/psi.json", "w", encoding="utf-8") as f:
     json.dump(dados, f, ensure_ascii=False, indent=2)
 
