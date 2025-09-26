@@ -1,0 +1,26 @@
+import requests
+from bs4 import BeautifulSoup
+import json
+
+url = "https://www.jornaldenegocios.pt/cotacoes/indice/PSI"
+html = requests.get(url).text
+soup = BeautifulSoup(html, "html.parser")
+
+tabela = soup.find("div", class_="table-responsive")
+linhas = tabela.find_all("tr")[1:]
+
+dados = []
+for linha in linhas:
+    cols = linha.find_all("td")
+    if len(cols) >= 6:
+        dados.append({
+            "empresa": cols[0].text.strip(),
+            "cotacao": cols[1].text.strip(),
+            "variacao": cols[2].text.strip(),
+            "volume": cols[3].text.strip(),
+            "capitalizacao": cols[4].text.strip(),
+            "hora": cols[5].text.strip()
+        })
+
+with open("data/psi.json", "w", encoding="utf-8") as f:
+    json.dump(dados, f, ensure_ascii=False, indent=2)
