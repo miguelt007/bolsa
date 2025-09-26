@@ -2,24 +2,27 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-url = "https://www.jornaldenegocios.pt/cotacoes/indice/PSI"
-html = requests.get(url).text
+headers = {
+    "User-Agent": "Mozilla/5.0"
+}
+url = "https://pt.investing.com/indices/psi-20-components"
+html = requests.get(url, headers=headers).text
 soup = BeautifulSoup(html, "html.parser")
 
-tabela = soup.find("div", class_="table-responsive")
-linhas = tabela.find_all("tr")[1:]
+tabela = soup.find("table", {"id": "cr1"})
+linhas = tabela.find("tbody").find_all("tr")
 
 dados = []
 for linha in linhas:
     cols = linha.find_all("td")
-    if len(cols) >= 6:
+    if len(cols) >= 7:
         dados.append({
-            "empresa": cols[0].text.strip(),
-            "cotacao": cols[1].text.strip(),
-            "variacao": cols[2].text.strip(),
-            "volume": cols[3].text.strip(),
-            "capitalizacao": cols[4].text.strip(),
-            "hora": cols[5].text.strip()
+            "empresa": cols[1].text.strip(),
+            "cotacao": cols[2].text.strip(),
+            "variacao": cols[3].text.strip(),
+            "maximo": cols[4].text.strip(),
+            "minimo": cols[5].text.strip(),
+            "volume": cols[6].text.strip()
         })
 
 with open("data/psi.json", "w", encoding="utf-8") as f:
