@@ -20,11 +20,11 @@ for linha in linhas:
         dados.append({
             "empresa": cols[0].text.strip(),
             "cotacao": cols[1].text.strip(),
-            "maximo": cols[2].text.strip(),
-            "minimo": cols[3].text.strip(),
-            "variacao_pct": cols[4].text.strip(),
-            "volume": cols[5].text.strip(),
-            "hora": cols[6].text.strip()
+            "minimo": cols[2].text.strip(),         # Low
+            "variacao_pct": cols[3].text.strip(),   # Chg. %
+            "maximo": cols[4].text.strip(),         # High
+            "volume": cols[5].text.strip(),         # Vol.
+            "hora": cols[6].text.strip()            # Time
         })
 
 with open("data/psi.json", "w", encoding="utf-8") as f:
