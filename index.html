@@ -2,7 +2,7 @@
 <html lang="pt">
 <head>
   <meta charset="UTF-8">
-  <title>Índice PSI 20 - Atualização Automática</title>
+  <title>PSI 20 - Atualização Automática</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 2em; background: #f9f9f9; }
     h1 { color: #333; }
@@ -18,10 +18,11 @@
   <table id="tabela-psi">
     <thead>
       <tr>
-        <th>Índice</th>
+        <th>Empresa</th>
         <th>Cotação</th>
         <th>Variação</th>
-        <th>Percentual</th>
+        <th>Volume</th>
+        <th>Capitalização</th>
         <th>Hora</th>
       </tr>
     </thead>
@@ -35,13 +36,14 @@
         const dados = await res.json();
         const tbody = document.querySelector("#tabela-psi tbody");
         tbody.innerHTML = "";
-        dados.forEach(({ indice, cotacao, variacao, percentual, hora }) => {
+        dados.forEach(({ empresa, cotacao, variacao, volume, capitalizacao, hora }) => {
           const linha = document.createElement("tr");
           linha.innerHTML = `
-            <td>${indice}</td>
+            <td>${empresa}</td>
             <td>${cotacao}</td>
             <td class="${variacao.startsWith('-') ? 'down' : 'up'}">${variacao}</td>
-            <td class="${percentual.startsWith('-') ? 'down' : 'up'}">${percentual}</td>
+            <td>${volume}</td>
+            <td>${capitalizacao}</td>
             <td>${hora}</td>
           `;
           tbody.appendChild(linha);
