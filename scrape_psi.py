@@ -1,29 +1,26 @@
 import requests
-import re
+from bs4 import BeautifulSoup
 import json
 
-url = "https://www.jornaldenegocios.pt/cotacoes/indice/PSI"
-headers = { "User-Agent": "Mozilla/5.0" }
-html = requests.get(url, headers=headers).text
+proxy_url = "https://api.codetabs.com/v1/proxy?quest=https://www.jornaldenegocios.pt/cotacoes/indice/PSI"
+html = requests.get(proxy_url, headers={"User-Agent": "Mozilla/5.0"}).text
+soup = BeautifulSoup(html, "html.parser")
 
-# Regex ajustado para capturar nome, cotação, variação, volume, capitalização e hora
-padrao = re.compile(
-    r'([A-ZÀ-Úa-zà-ú\\s\\-]+?)\\s+([\\d,]+)€\\s+([\\-\\+\\d,]+%)\\s+([\\d\\.]+)\\s+([\\d\\.]+m€)\\s+(\\d{2}:\\d{2})'
-)
-
-matches = padrao.findall(html)
-
+linhas = soup.select(".table-responsive tr")
 dados = []
-for m in matches:
-    empresa, cotacao, variacao, volume, capitalizacao, hora = m
-    dados.append({
-        "empresa": empresa.strip(),
-        "cotacao": cotacao.replace(",", ".") + "€",
-        "variacao": variacao,
-        "volume": volume,
-        "capitalizacao": capitalizacao,
-        "hora": hora
-    })
+
+for i, linha in enumerate(linhas):
+    if i == 0: continue  # Ignora cabeçalho
+    cols = linha.find_all("td")
+    if len(cols) >= 6:
+        dados.append({
+            "empresa": cols[0].text.strip(),
+            "cotacao": cols[1].text.strip(),
+            "variacao": cols[2].text.strip(),
+            "volume": cols[3].text.strip(),
+            "capitalizacao": cols[4].text.strip(),
+            "hora": cols[5].text.strip()
+        })
 
 with open("data/psi.json", "w", encoding="utf-8") as f:
     json.dump(dados, f, ensure_ascii=False, indent=2)
