@@ -10,27 +10,29 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Clona o repositório com autenticação via GH_PAT
+      # 1. Checkout com autenticação via GH_PAT
       - name: Checkout do repositório
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.GH_PAT }}
 
-      # 2. Instala as dependências necessárias para scraping
-      - name: Instalar dependências
-        run: pip install requests beautifulsoup4
+      # 2. Instalar Playwright e dependências
+      - name: Instalar Playwright
+        run: |
+          pip install playwright beautifulsoup4
+          playwright install
 
-      # 3. Executa o script scrape_psi.py
-      - name: Executar scraper
-        run: python scrape_psi.py
+      # 3. Executar scraper com navegador real
+      - name: Scraping com Playwright
+        run: python scrape_psi_playwright.py
 
-      # 4. Commit e push com autenticação via token GH_PAT
-      - name: Commit e push com autenticação
+      # 4. Commit e push com autenticação
+      - name: Commit e push dos dados
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name "Miguel T"
           git config --global user.email "miguel@example.com"
           git add data/psi.json
-          git commit -m "Atualização automática" || echo "Nada para commitar"
+          git commit -m "Atualização automática via Playwright" || echo "Nada para commitar"
           git push origin HEAD:main
