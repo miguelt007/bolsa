@@ -36,41 +36,41 @@
   <h1>📈 PSI 20 - Atualização Automática</h1>
 
   <table id="psi-table">
-    <thead>
-      <tr>
-        <th>Empresa</th>
-        <th>Cotação (€)</th>
-        <th>Variação (%)</th>
-        <th>Máximo (€)</th>
-        <th>Mínimo (€)</th>
-        <th>Volume</th>
-        <th>Hora</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+  <thead>
+    <tr>
+      <th>Empresa</th>
+      <th>Cotação (€)</th>
+      <th>Máximo (€)</th>
+      <th>Mínimo (€)</th>
+      <th>Variação (%)</th>
+      <th>Volume</th>
+      <th>Hora</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
 
   <script>
-    fetch("data/psi.json")
-      .then(res => res.json())
-      .then(data => {
-        const tbody = document.querySelector("#psi-table tbody");
-        tbody.innerHTML = "";
+   fetch("data/psi.json")
+  .then(res => res.json())
+  .then(data => {
+    const tbody = document.querySelector("#psi-table tbody");
+    tbody.innerHTML = "";
 
-        data.forEach(item => {
-          const row = document.createElement("tr");
-          row.innerHTML = `
-            <td>${item.empresa}</td>
-            <td>${item.cotacao}</td>
-            <td>${item.variacao_pct}</td>
-            <td>${item.maximo}</td>
-            <td>${item.minimo}</td>
-            <td>${item.volume}</td>
-            <td>${item.hora}</td>
-          `;
-          tbody.appendChild(row);
-        });
-      })
+    data.forEach(item => {
+      const row = document.createElement("tr");
+      row.innerHTML = `
+        <td>${item.empresa}</td>
+        <td>${item.cotacao}</td>
+        <td>${item.maximo}</td>
+        <td>${item.minimo}</td>
+        <td>${item.variacao_pct}</td>
+        <td>${item.volume}</td>
+        <td>${item.hora}</td>
+      `;
+      tbody.appendChild(row);
+    });
+  });
       .catch(() => {
         const tbody = document.querySelector("#psi-table tbody");
         tbody.innerHTML = `<tr><td colspan="7">⚠️ Nenhum dado disponível no momento.</td></tr>`;
