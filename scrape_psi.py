@@ -6,8 +6,11 @@ url = "https://www.jornaldenegocios.pt/cotacoes/indice/PSI"
 headers = { "User-Agent": "Mozilla/5.0" }
 html = requests.get(url, headers=headers).text
 
-# Regex para extrair blocos de empresas
-padrao = re.compile(r'([A-ZÀ-Úa-zà-ú\\s\\-]+?)\\s+([\\d,]+)€\\s+([\\-\\+\\d,]+%)\\s+([\\d\\.]+)\\s+([\\d\\.]+m€)\\s+(\\d{2}:\\d{2})')
+# Regex ajustado para capturar nome, cotação, variação, volume, capitalização e hora
+padrao = re.compile(
+    r'([A-ZÀ-Úa-zà-ú\\s\\-]+?)\\s+([\\d,]+)€\\s+([\\-\\+\\d,]+%)\\s+([\\d\\.]+)\\s+([\\d\\.]+m€)\\s+(\\d{2}:\\d{2})'
+)
+
 matches = padrao.findall(html)
 
 dados = []
