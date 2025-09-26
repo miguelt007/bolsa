@@ -25,7 +25,7 @@ for linha in linhas:
             "minimo": cols[4].text.strip(),
             "variacao_pct": cols[5].text.strip(),
             "volume": cols[6].text.strip(),
-            "time": cols[7].text.strip()
+            "hora": cols[7].text.strip()
         })
 
 with open("data/psi.json", "w", encoding="utf-8") as f:
