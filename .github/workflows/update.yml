@@ -2,7 +2,7 @@ name: Atualizar PSI
 
 on:
   schedule:
-    - cron: "*/3 * * * *"  # Executa a cada 3 minutos
+    - cron: "*/5 * * * *"  # Executa a cada 5 minutos
   workflow_dispatch:       # Permite execução manual
 
 jobs:
@@ -16,23 +16,21 @@ jobs:
         with:
           token: ${{ secrets.GH_PAT }}
 
-      # 2. Instalar Playwright e dependências
-      - name: Instalar Playwright
-        run: |
-          pip install playwright beautifulsoup4
-          playwright install
+      # 2. Instalar dependências
+      - name: Instalar dependências
+        run: pip install beautifulsoup4 requests
 
-      # 3. Executar scraper com navegador real
-      - name: Scraping com Playwright
-        run: python scrape_psi_playwright.py
+      # 3. Executar scraper Investing.com
+      - name: Scraping via Investing.com
+        run: python scrape_psi_investing.py
 
-      # 4. Commit e push com autenticação
+      # 4. Commit e push dos dados
       - name: Commit e push dos dados
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          git config --global user.name "miguelt007"
-          git config --global user.email "miguelt007@gmail.com"
+          git config --global user.name "Miguel T"
+          git config --global user.email "miguel@example.com"
           git add data/psi.json
-          git commit -m "Atualização automática via Playwright" || echo "Nada para commitar"
+          git commit -m "Atualização automática via Investing.com" || echo "Nada para commitar"
           git push origin HEAD:main
