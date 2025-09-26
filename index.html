@@ -1,32 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PSI 20 - Atualização Automática</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 2em; background: #f9f9f9; }
-    h1 { color: #333; }
-    .erro { color: red; margin-top: 1em; }
-    table { width: 100%; border-collapse: collapse; margin-top: 1em; display: none; }
-    th, td { padding: 8px 12px; border: 1px solid #ccc; text-align: left; }
-    th { background-color: #eee; }
-    .up { color: green; }
-    .down { color: red; }
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 2rem;
+      background: white;
+    }
+    th, td {
+      padding: 0.6rem;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+    th {
+      background-color: #eee;
+    }
+    tr:hover {
+      background-color: #f1f1f1;
+    }
   </style>
 </head>
 <body>
-  <h1>Índice PSI 20 - Dados em tempo real</h1>
-  <div id="mensagem" class="erro"></div>
-  <table id="tabela-psi">
+  <h1>📈 PSI 20 - Atualização Automática</h1>
+
+  <table id="psi-table">
     <thead>
       <tr>
         <th>Empresa</th>
-        <th>Cotação</th>
-        <th>Variação</th>
+        <th>Cotação (€)</th>
+        <th>Variação (%)</th>
+        <th>Máximo (€)</th>
+        <th>Mínimo (€)</th>
         <th>Volume</th>
-        <th>Capitalização</th>
         <th>Hora</th>
       </tr>
     </thead>
@@ -34,47 +51,30 @@
   </table>
 
   <script>
-    async function carregarDados() {
-      const mensagem = document.getElementById("mensagem");
-      const tabela = document.getElementById("tabela-psi");
-      const tbody = tabela.querySelector("tbody");
-
-      try {
-        const res = await fetch("data/psi.json");
-        if (!res.ok) throw new Error("Ficheiro não encontrado");
-        const dados = await res.json();
-
-        if (!Array.isArray(dados) || dados.length === 0) {
-          mensagem.textContent = "⚠️ Nenhum dado disponível no momento. Tente mais tarde.";
-          tabela.style.display = "none";
-          return;
-        }
-
-        mensagem.textContent = "";
-        tabela.style.display = "table";
+    fetch("data/psi.json")
+      .then(res => res.json())
+      .then(data => {
+        const tbody = document.querySelector("#psi-table tbody");
         tbody.innerHTML = "";
 
-        dados.forEach(({ empresa, cotacao, variacao, volume, capitalizacao, hora }) => {
-          const tr = document.createElement("tr");
-          tr.innerHTML = `
-            <td>${empresa}</td>
-            <td>${cotacao}</td>
-            <td class="${variacao.startsWith('-') ? 'down' : 'up'}">${variacao}</td>
-            <td>${volume}</td>
-            <td>${capitalizacao}</td>
-            <td>${hora}</td>
+        data.forEach(item => {
+          const row = document.createElement("tr");
+          row.innerHTML = `
+            <td>${item.empresa}</td>
+            <td>${item.cotacao}</td>
+            <td>${item.variacao_pct}</td>
+            <td>${item.maximo}</td>
+            <td>${item.minimo}</td>
+            <td>${item.volume}</td>
+            <td>${item.hora}</td>
           `;
-          tbody.appendChild(tr);
+          tbody.appendChild(row);
         });
-      } catch (erro) {
-        mensagem.textContent = "❌ Erro ao carregar os dados: " + erro.message;
-        tabela.style.display = "none";
-        console.error("Erro ao carregar psi.json:", erro);
-      }
-    }
-
-    carregarDados();
-    setInterval(carregarDados, 180000); // Atualiza a cada 3 minutos
+      })
+      .catch(() => {
+        const tbody = document.querySelector("#psi-table tbody");
+        tbody.innerHTML = `<tr><td colspan="7">⚠️ Nenhum dado disponível no momento.</td></tr>`;
+      });
   </script>
 </body>
 </html>
