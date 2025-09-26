@@ -2,22 +2,28 @@
 <html lang="pt">
 <head>
   <meta charset="UTF-8">
-  <title>Índice PSI - Atualização Automática</title>
+  <title>Índice PSI 20 - Atualização Automática</title>
   <style>
-    body { font-family: sans-serif; margin: 2em; }
+    body { font-family: Arial, sans-serif; margin: 2em; background: #f9f9f9; }
+    h1 { color: #333; }
     table { width: 100%; border-collapse: collapse; margin-top: 1em; }
-    th, td { padding: 8px; border: 1px solid #ccc; }
-    th { background: #eee; }
+    th, td { padding: 8px 12px; border: 1px solid #ccc; text-align: left; }
+    th { background-color: #eee; }
     .up { color: green; }
     .down { color: red; }
   </style>
 </head>
 <body>
-  <h1>Índice PSI - Atualizado a cada 3 minutos</h1>
-  <table id="tabela">
+  <h1>Índice PSI 20 - Atualizado a cada 3 minutos</h1>
+  <table id="tabela-psi">
     <thead>
       <tr>
-        <th>Empresa</th><th>Cotação</th><th>Variação</th><th>Volume</th><th>Capitalização</th><th>Hora</th>
+        <th>Empresa</th>
+        <th>Cotação</th>
+        <th>Variação</th>
+        <th>Máximo</th>
+        <th>Mínimo</th>
+        <th>Volume</th>
       </tr>
     </thead>
     <tbody></tbody>
@@ -25,22 +31,26 @@
 
   <script>
     async function carregarDados() {
-      const res = await fetch('data/psi.json');
-      const dados = await res.json();
-      const tbody = document.querySelector("tbody");
-      tbody.innerHTML = "";
-      dados.forEach(({ empresa, cotacao, variacao, volume, capitalizacao, hora }) => {
-        const linha = document.createElement("tr");
-        linha.innerHTML = `
-          <td>${empresa}</td>
-          <td>${cotacao}</td>
-          <td class="${variacao.startsWith('-') ? 'down' : 'up'}">${variacao}</td>
-          <td>${volume}</td>
-          <td>${capitalizacao}</td>
-          <td>${hora}</td>
-        `;
-        tbody.appendChild(linha);
-      });
+      try {
+        const res = await fetch('data/psi.json');
+        const dados = await res.json();
+        const tbody = document.querySelector("#tabela-psi tbody");
+        tbody.innerHTML = "";
+        dados.forEach(({ empresa, cotacao, variacao, maximo, minimo, volume }) => {
+          const linha = document.createElement("tr");
+          linha.innerHTML = `
+            <td>${empresa}</td>
+            <td>${cotacao}</td>
+            <td class="${variacao.startsWith('-') ? 'down' : 'up'}">${variacao}</td>
+            <td>${maximo}</td>
+            <td>${minimo}</td>
+            <td>${volume}</td>
+          `;
+          tbody.appendChild(linha);
+        });
+      } catch (erro) {
+        console.error("Erro ao carregar psi.json:", erro);
+      }
     }
 
     carregarDados();
