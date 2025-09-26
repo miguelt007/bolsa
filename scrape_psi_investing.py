@@ -16,8 +16,9 @@ dados = []
 
 for linha in linhas:
     cols = linha.find_all("td")
-    if len(cols) >= 8:
+    if len(cols) >= 9:
         nome_empresa = cols[1].find("a")
+        hora_span = cols[8].find("span")
         dados.append({
             "empresa": nome_empresa.text.strip() if nome_empresa else cols[1].text.strip(),
             "cotacao": cols[2].text.strip(),
@@ -25,10 +26,10 @@ for linha in linhas:
             "minimo": cols[4].text.strip(),
             "variacao_pct": cols[5].text.strip(),
             "volume": cols[6].text.strip(),
-            "hora": cols[7].text.strip()
+            "hora": hora_span.text.strip() if hora_span else cols[8].text.strip()
         })
 
 with open("data/psi.json", "w", encoding="utf-8") as f:
     json.dump(dados, f, ensure_ascii=False, indent=2)
 
-print(f"✅ ${len(dados)} empresas extraídas com sucesso.")
+print(f"✅ {len(dados)} empresas extraídas com sucesso.")
