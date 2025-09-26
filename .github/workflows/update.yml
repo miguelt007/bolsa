@@ -24,7 +24,7 @@ jobs:
 
       # 3. Executar scraper com navegador real
       - name: Scraping com Playwright
-        run: python .github/workflows/scrape_psi_playwright.py
+        run: python scrape_psi_playwright.py
 
       # 4. Commit e push com autenticação
       - name: Commit e push dos dados
