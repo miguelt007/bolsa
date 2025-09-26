@@ -31,8 +31,8 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          git config --global user.name "Miguel T"
-          git config --global user.email "miguel@example.com"
+          git config --global user.name "miguelt007"
+          git config --global user.email "miguelt007@gmail.com"
           git add data/psi.json
           git commit -m "Atualização automática via Playwright" || echo "Nada para commitar"
           git push origin HEAD:main
