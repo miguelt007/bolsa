@@ -14,7 +14,7 @@
   </style>
 </head>
 <body>
-  <h1>Índice PSI 20 - Atualizado a cada 3 minutos</h1>
+  <h1>Índice PSI 20 - Dados em tempo real</h1>
   <table id="tabela-psi">
     <thead>
       <tr>
@@ -31,25 +31,41 @@
 
   <script>
     async function carregarDados() {
+      const url = "https://api.allorigins.win/get?url=" + encodeURIComponent("https://www.jornaldenegocios.pt/cotacoes/indice/PSI");
       try {
-        const res = await fetch('data/psi.json');
-        const dados = await res.json();
+        const res = await fetch(url);
+        const data = await res.json();
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(data.contents, "text/html");
+        const linhas = doc.querySelectorAll(".table-responsive tr");
         const tbody = document.querySelector("#tabela-psi tbody");
         tbody.innerHTML = "";
-        dados.forEach(({ empresa, cotacao, variacao, volume, capitalizacao, hora }) => {
-          const linha = document.createElement("tr");
-          linha.innerHTML = `
-            <td>${empresa}</td>
-            <td>${cotacao}</td>
-            <td class="${variacao.startsWith('-') ? 'down' : 'up'}">${variacao}</td>
-            <td>${volume}</td>
-            <td>${capitalizacao}</td>
-            <td>${hora}</td>
-          `;
-          tbody.appendChild(linha);
+
+        linhas.forEach((linha, i) => {
+          if (i === 0) return; // Ignora cabeçalho
+          const cols = linha.querySelectorAll("td");
+          if (cols.length >= 6) {
+            const empresa = cols[0].innerText.trim();
+            const cotacao = cols[1].innerText.trim();
+            const variacao = cols[2].innerText.trim();
+            const volume = cols[3].innerText.trim();
+            const capitalizacao = cols[4].innerText.trim();
+            const hora = cols[5].innerText.trim();
+
+            const tr = document.createElement("tr");
+            tr.innerHTML = `
+              <td>${empresa}</td>
+              <td>${cotacao}</td>
+              <td class="${variacao.startsWith('-') ? 'down' : 'up'}">${variacao}</td>
+              <td>${volume}</td>
+              <td>${capitalizacao}</td>
+              <td>${hora}</td>
+            `;
+            tbody.appendChild(tr);
+          }
         });
       } catch (erro) {
-        console.error("Erro ao carregar psi.json:", erro);
+        console.error("❌ Erro ao carregar dados:", erro);
       }
     }
 
