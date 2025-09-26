@@ -16,15 +16,16 @@ dados = []
 
 for linha in linhas:
     cols = linha.find_all("td")
-    if len(cols) >= 7:
+    if len(cols) >= 9:
+        # Ignorar td[0] (ícone/logo)
         dados.append({
-            "empresa": cols[0].text.strip(),
-            "cotacao": cols[1].text.strip(),
-            "maximo": cols[2].text.strip(),
-            "minimo": cols[3].text.strip(),
-            "variacao_pct": cols[4].text.strip(),
-            "volume": cols[5].text.strip(),
-            "hora": cols[6].text.strip()
+            "empresa": cols[1].text.strip(),
+            "cotacao": cols[2].text.strip(),
+            "maximo": cols[4].text.strip(),
+            "minimo": cols[5].text.strip(),
+            "variacao_pct": cols[3].text.strip(),
+            "volume": cols[6].text.strip(),
+            "hora": cols[7].text.strip()
         })
 
 with open("data/psi.json", "w", encoding="utf-8") as f:
