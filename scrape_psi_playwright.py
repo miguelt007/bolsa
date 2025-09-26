@@ -1,38 +1,37 @@
-name: Atualizar PSI
+import asyncio
+from playwright.async_api import async_playwright
+import json
+from bs4 import BeautifulSoup
 
-on:
-  schedule:
-    - cron: "*/3 * * * *"  # Executa a cada 3 minutos
-  workflow_dispatch:       # Permite execução manual
+async def main():
+    async with async_playwright() as p:
+        browser = await p.chromium.launch()
+        page = await browser.new_page()
+        await page.goto("https://www.jornaldenegocios.pt/cotacoes/indice/PSI")
+        await page.wait_for_selector(".table-responsive tr")
+        html = await page.content()
+        await browser.close()
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+        soup = BeautifulSoup(html, "html.parser")
+        linhas = soup.select(".table-responsive tr")
+        dados = []
 
-    steps:
-      # 1. Checkout com autenticação via GH_PAT
-      - name: Checkout do repositório
-        uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GH_PAT }}
+        for i, linha in enumerate(linhas):
+            if i == 0: continue
+            cols = linha.find_all("td")
+            if len(cols) >= 6:
+                dados.append({
+                    "empresa": cols[0].text.strip(),
+                    "cotacao": cols[1].text.strip(),
+                    "variacao": cols[2].text.strip(),
+                    "volume": cols[3].text.strip(),
+                    "capitalizacao": cols[4].text.strip(),
+                    "hora": cols[5].text.strip()
+                })
 
-      # 2. Instalar Playwright e dependências
-      - name: Instalar Playwright
-        run: |
-          pip install playwright beautifulsoup4
-          playwright install
+        with open("data/psi.json", "w", encoding="utf-8") as f:
+            json.dump(dados, f, ensure_ascii=False, indent=2)
 
-      # 3. Executar scraper com navegador real
-      - name: Scraping com Playwright
-        run: python scrape_psi_playwright.py
+        print(f"✅ {len(dados)} empresas extraídas com sucesso.")
 
-      # 4. Commit e push com autenticação
-      - name: Commit e push dos dados
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
-        run: |
-          git config --global user.name "miguelt007"
-          git config --global user.email "miguelt007@gmail.com"
-          git add data/psi.json
-          git commit -m "Atualização automática via Playwright" || echo "Nada para commitar"
-          git push origin HEAD:main
+asyncio.run(main())
