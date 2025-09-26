@@ -1,0 +1,23 @@
+name: Atualizar PSI
+
+on:
+  schedule:
+    - cron: '*/3 * * * *'  # A cada 3 minutos
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Instalar dependências
+        run: pip install requests beautifulsoup4
+      - name: Executar scraper
+        run: python scrape_psi.py
+      - name: Commit e push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/psi.json
+          git commit -m "Atualização automática"
+          git push
