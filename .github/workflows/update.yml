@@ -13,6 +13,8 @@ jobs:
       # 1. Clona o repositório
       - name: Checkout do repositório
         uses: actions/checkout@v3
+        with:
+        token: ${{ secrets.GH_PAT }}
 
       # 2. Instala as dependências necessárias para scraping
       - name: Instalar dependências
