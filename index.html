@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PSI 20 - Atualização Automática</title>
+  <title>PSI 20 - Dashboard</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -23,6 +23,7 @@
       padding: 0.6rem;
       border: 1px solid #ccc;
       text-align: center;
+      cursor: pointer;
     }
     th {
       background-color: #eee;
@@ -30,51 +31,74 @@
     tr:hover {
       background-color: #f1f1f1;
     }
+    .up {
+      color: green;
+      font-weight: bold;
+    }
+    .down {
+      color: red;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
-  <h1>📈 PSI 20 - Atualização Automática</h1>
+  <h1>📊 PSI 20 - Atualização Automática</h1>
 
   <table id="psi-table">
-  <thead>
-    <tr>
-      <th>Empresa</th>
-      <th>Cotação (€)</th>
-      <th>Máximo (€)</th>
-      <th>Mínimo (€)</th>
-      <th>Variação (%)</th>
-      <th>Volume</th>
-      <th>Hora</th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>
+    <thead>
+      <tr>
+        <th onclick="sortTable(0)">Empresa</th>
+        <th onclick="sortTable(1)">Cotação (€)</th>
+        <th onclick="sortTable(2)">Máximo (€)</th>
+        <th onclick="sortTable(3)">Mínimo (€)</th>
+        <th onclick="sortTable(4)">Variação (%)</th>
+        <th onclick="sortTable(5)">Volume</th>
+        <th onclick="sortTable(6)">Hora</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
 
   <script>
-   fetch("data/psi.json")
-  .then(res => res.json())
-  .then(data => {
-    const tbody = document.querySelector("#psi-table tbody");
-    tbody.innerHTML = "";
-
-    data.forEach(item => {
-      const row = document.createElement("tr");
-      row.innerHTML = `
-        <td>${item.empresa}</td>
-        <td>${item.cotacao}</td>
-        <td>${item.maximo}</td>
-        <td>${item.minimo}</td>
-        <td>${item.variacao_pct}</td>
-        <td>${item.volume}</td>
-        <td>${item.hora}</td>
-      `;
-      tbody.appendChild(row);
-    });
-  })
-      .catch(() => {
+    fetch("data/psi.json")
+      .then(res => res.json())
+      .then(data => {
         const tbody = document.querySelector("#psi-table tbody");
-        tbody.innerHTML = `<tr><td colspan="7">⚠️ Nenhum dado disponível no momento.</td></tr>`;
+        tbody.innerHTML = "";
+
+        data.forEach(item => {
+          const variacao = item.variacao_pct || "";
+          const classe = variacao.includes("-") ? "down" : "up";
+          const variacaoFormatada = `<span class="${classe}">${variacao}</span>`;
+
+          const row = document.createElement("tr");
+          row.innerHTML = `
+            <td>${item.empresa}</td>
+            <td>${item.cotacao}</td>
+            <td>${item.maximo}</td>
+            <td>${item.minimo}</td>
+            <td>${variacaoFormatada}</td>
+            <td>${item.volume}</td>
+            <td>${item.hora}</td>
+          `;
+          tbody.appendChild(row);
+        });
       });
+
+    function sortTable(colIndex) {
+      const table = document.getElementById("psi-table");
+      const rows = Array.from(table.rows).slice(1);
+      const isNumeric = !isNaN(rows[0].cells[colIndex].innerText.replace(",", "."));
+
+      rows.sort((a, b) => {
+        const valA = a.cells[colIndex].innerText.replace(",", ".");
+        const valB = b.cells[colIndex].innerText.replace(",", ".");
+        return isNumeric ? valB - valA : valA.localeCompare(valB);
+      });
+
+      const tbody = table.querySelector("tbody");
+      rows.forEach(row => tbody.appendChild(row));
+    }
   </script>
 </body>
 </html>
