@@ -7,57 +7,82 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      padding: 2rem;
-      background: #f9f9f9;
+      margin: 0;
+      padding: 1rem;
+      background: #f4f4f4;
     }
     h1 {
       text-align: center;
+      margin-bottom: 1rem;
+    }
+    .table-container {
+      max-height: 80vh;
+      overflow-y: auto;
+      border: 1px solid #ccc;
+      background: white;
     }
     table {
       width: 100%;
       border-collapse: collapse;
-      margin-top: 2rem;
-      background: white;
+      table-layout: fixed;
     }
     th, td {
       padding: 0.6rem;
-      border: 1px solid #ccc;
+      border: 1px solid #ddd;
       text-align: center;
-      cursor: pointer;
+      position: relative;
     }
     th {
       background-color: #eee;
+      cursor: pointer;
+      position: sticky;
+      top: 0;
+      z-index: 1;
     }
     tr:hover {
-      background-color: #f1f1f1;
+      background-color: #f9f9f9;
     }
-    .up {
+    .up::before {
+      content: "▲ ";
       color: green;
-      font-weight: bold;
     }
-    .down {
+    .down::before {
+      content: "▼ ";
       color: red;
-      font-weight: bold;
+    }
+    th[data-tooltip]:hover::after {
+      content: attr(data-tooltip);
+      position: absolute;
+      bottom: -1.8rem;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #333;
+      color: #fff;
+      padding: 0.3rem 0.6rem;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      white-space: nowrap;
     }
   </style>
 </head>
 <body>
   <h1>📊 PSI 20 - Atualização Automática</h1>
-
-  <table id="psi-table">
-    <thead>
-      <tr>
-        <th onclick="sortTable(0)">Empresa</th>
-        <th onclick="sortTable(1)">Cotação (€)</th>
-        <th onclick="sortTable(2)">Máximo (€)</th>
-        <th onclick="sortTable(3)">Mínimo (€)</th>
-        <th onclick="sortTable(4)">Variação (%)</th>
-        <th onclick="sortTable(5)">Volume</th>
-        <th onclick="sortTable(6)">Hora</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+  <div class="table-container">
+    <table id="psi-table">
+      <thead>
+        <tr>
+          <th onclick="sortTable(0)">Empresa</th>
+          <th onclick="sortTable(1)">Cotação (€)</th>
+          <th onclick="sortTable(2)">Máximo (€)</th>
+          <th onclick="sortTable(3)">Mínimo (€)</th>
+          <th onclick="sortTable(4)" data-tooltip="Variação desde o último fecho">Variação (%)</th>
+          <th onclick="sortTable(5)" data-tooltip="Volume negociado hoje">Volume</th>
+          <th onclick="sortTable(6)">Hora</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
 
   <script>
     fetch("data/psi.json")
