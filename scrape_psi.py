@@ -1,38 +1,28 @@
 import requests
-from bs4 import BeautifulSoup
 import json
 
+url = "https://investing-com6.p.rapidapi.com/web-crawling/api/markets/indices"
 headers = {
-    "User-Agent": "Mozilla/5.0",
-    "Accept-Language": "pt-PT,pt;q=0.9"
+    "X-RapidAPI-Key": "dbcf86698cmshd04b1b46934dd15p11474ejsn267bbdb81678",  # substitui pela tua chave real
+    "X-RapidAPI-Host": "investing-com6.p.rapidapi.com"
 }
 
-url = "https://pt.investing.com/indices/psi-20-components"
 response = requests.get(url, headers=headers)
-
 if response.status_code != 200:
-    raise Exception(f"Erro ao aceder à página: {response.status_code}")
+    raise Exception(f"Erro na API: {response.status_code}")
 
-soup = BeautifulSoup(response.text, "html.parser")
-tabela = soup.find("table", {"id": "cr1"})
+dados_brutos = response.json()
+dados_filtrados = []
 
-if not tabela:
-    raise Exception("Tabela não encontrada. Verifica se o site mudou a estrutura.")
-
-linhas = tabela.find("tbody").find_all("tr")
-dados = []
-
-for linha in linhas:
-    cols = linha.find_all("td")
-    if len(cols) >= 7:
-        dados.append({
-            "empresa": cols[1].text.strip(),
-            "cotacao": cols[2].text.strip(),
-            "variacao": cols[3].text.strip(),
-            "maximo": cols[4].text.strip(),
-            "minimo": cols[5].text.strip(),
-            "volume": cols[6].text.strip()
+for item in dados_brutos.get("data", []):
+    if "PSI" in item.get("name", ""):
+        dados_filtrados.append({
+            "indice": item.get("name"),
+            "cotacao": item.get("price"),
+            "variacao": item.get("change"),
+            "percentual": item.get("change_percent"),
+            "hora": item.get("time")
         })
 
 with open("data/psi.json", "w", encoding="utf-8") as f:
-    json.dump(dados, f, ensure_ascii=False, indent=2)
+    json.dump(dados_filtrados, f, ensure_ascii=False, indent=2)
