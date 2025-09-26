@@ -8,7 +8,8 @@
   <style>
     body { font-family: Arial, sans-serif; margin: 2em; background: #f9f9f9; }
     h1 { color: #333; }
-    table { width: 100%; border-collapse: collapse; margin-top: 1em; }
+    .erro { color: red; margin-top: 1em; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1em; display: none; }
     th, td { padding: 8px 12px; border: 1px solid #ccc; text-align: left; }
     th { background-color: #eee; }
     .up { color: green; }
@@ -17,6 +18,7 @@
 </head>
 <body>
   <h1>Índice PSI 20 - Dados em tempo real</h1>
+  <div id="mensagem" class="erro"></div>
   <table id="tabela-psi">
     <thead>
       <tr>
@@ -33,10 +35,23 @@
 
   <script>
     async function carregarDados() {
+      const mensagem = document.getElementById("mensagem");
+      const tabela = document.getElementById("tabela-psi");
+      const tbody = tabela.querySelector("tbody");
+
       try {
         const res = await fetch("data/psi.json");
+        if (!res.ok) throw new Error("Ficheiro não encontrado");
         const dados = await res.json();
-        const tbody = document.querySelector("#tabela-psi tbody");
+
+        if (!Array.isArray(dados) || dados.length === 0) {
+          mensagem.textContent = "⚠️ Nenhum dado disponível no momento. Tente mais tarde.";
+          tabela.style.display = "none";
+          return;
+        }
+
+        mensagem.textContent = "";
+        tabela.style.display = "table";
         tbody.innerHTML = "";
 
         dados.forEach(({ empresa, cotacao, variacao, volume, capitalizacao, hora }) => {
@@ -52,7 +67,9 @@
           tbody.appendChild(tr);
         });
       } catch (erro) {
-        console.error("❌ Erro ao carregar psi.json:", erro);
+        mensagem.textContent = "❌ Erro ao carregar os dados: " + erro.message;
+        tabela.style.display = "none";
+        console.error("Erro ao carregar psi.json:", erro);
       }
     }
 
