@@ -17,7 +17,7 @@ if response.status_code != 200:
 dados_brutos = response.json()
 dados_filtrados = []
 
-for item in dados_brutos.get("data", []):
+for item in dados_brutos:
     dados_filtrados.append({
         "indice": item.get("name"),
         "cotacao": item.get("price"),
