@@ -1,12 +1,12 @@
 [
   {
     "empresa": "Galp Energia",
-    "cotacao": "16.58",
+    "cotacao": "16.55",
     "maximo": "16.79",
     "minimo": "16.51",
-    "variacao_pct": "-1.16%",
-    "volume": "518.83K",
-    "hora": "09:47:05"
+    "variacao_pct": "-1.34%",
+    "volume": "540.03K",
+    "hora": "09:53:07"
   },
   {
     "empresa": "Jeronimo Martins",
@@ -14,17 +14,17 @@
     "maximo": "20.54",
     "minimo": "20.38",
     "variacao_pct": "+0.79%",
-    "volume": "107.86K",
-    "hora": "09:45:17"
+    "volume": "109.08K",
+    "hora": "09:50:24"
   },
   {
     "empresa": "EDP",
-    "cotacao": "4.005",
+    "cotacao": "4.006",
     "maximo": "4.030",
     "minimo": "3.972",
-    "variacao_pct": "+0.20%",
-    "volume": "1.13M",
-    "hora": "09:49:07"
+    "variacao_pct": "+0.23%",
+    "volume": "1.14M",
+    "hora": "09:51:37"
   },
   {
     "empresa": "Altri",
@@ -37,30 +37,30 @@
   },
   {
     "empresa": "Banco Comercial",
-    "cotacao": "0.7532",
+    "cotacao": "0.7520",
     "maximo": "0.7562",
     "minimo": "0.7432",
-    "variacao_pct": "+0.24%",
-    "volume": "20.98M",
-    "hora": "09:46:36"
+    "variacao_pct": "+0.08%",
+    "volume": "21.16M",
+    "hora": "09:51:15"
   },
   {
     "empresa": "The Navigator",
-    "cotacao": "3.288",
+    "cotacao": "3.286",
     "maximo": "3.302",
     "minimo": "3.266",
-    "variacao_pct": "+0.80%",
-    "volume": "591.48K",
-    "hora": "09:45:10"
+    "variacao_pct": "+0.74%",
+    "volume": "594.99K",
+    "hora": "09:49:46"
   },
   {
     "empresa": "Mota Engil",
-    "cotacao": "5.070",
+    "cotacao": "5.065",
     "maximo": "5.190",
     "minimo": "5.060",
-    "variacao_pct": "+0.40%",
+    "variacao_pct": "+0.30%",
     "volume": "1.83M",
-    "hora": "09:49:20"
+    "hora": "09:51:27"
   },
   {
     "empresa": "REN",
@@ -86,8 +86,8 @@
     "maximo": "1.3400",
     "minimo": "1.3300",
     "variacao_pct": "+0.15%",
-    "volume": "451.69K",
-    "hora": "09:38:06"
+    "volume": "451.71K",
+    "hora": "09:49:35"
   },
   {
     "empresa": "Nos SGPS SA",
@@ -100,12 +100,12 @@
   },
   {
     "empresa": "EDP Renovaveis",
-    "cotacao": "11.29",
+    "cotacao": "11.31",
     "maximo": "11.47",
     "minimo": "11.19",
-    "variacao_pct": "-0.35%",
-    "volume": "478.64K",
-    "hora": "09:45:10"
+    "variacao_pct": "-0.18%",
+    "volume": "485.07K",
+    "hora": "09:48:36"
   },
   {
     "empresa": "Corticeira Amorim",
