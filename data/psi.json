@@ -1,12 +1,12 @@
 [
   {
     "empresa": "Galp Energia",
-    "cotacao": "16.30",
+    "cotacao": "16.29",
     "maximo": "16.45",
     "minimo": "16.27",
-    "variacao_pct": "-1.45%",
-    "volume": "109.83K",
-    "hora": "03:46:41"
+    "variacao_pct": "-1.48%",
+    "volume": "113.22K",
+    "hora": "03:47:06"
   },
   {
     "empresa": "Jeronimo Martins",
@@ -19,21 +19,21 @@
   },
   {
     "empresa": "EDP",
-    "cotacao": "4.013",
+    "cotacao": "4.010",
     "maximo": "4.023",
     "minimo": "4.002",
-    "variacao_pct": "-0.27%",
-    "volume": "607.23K",
-    "hora": "03:45:32"
+    "variacao_pct": "-0.35%",
+    "volume": "656.92K",
+    "hora": "03:48:22"
   },
   {
     "empresa": "Altri",
-    "cotacao": "5.020",
+    "cotacao": "5.040",
     "maximo": "5.070",
     "minimo": "5.020",
-    "variacao_pct": "-0.59%",
-    "volume": "23.58K",
-    "hora": "03:40:51"
+    "variacao_pct": "-0.20%",
+    "volume": "23.59K",
+    "hora": "03:44:44"
   },
   {
     "empresa": "Banco Comercial",
@@ -50,17 +50,17 @@
     "maximo": "3.304",
     "minimo": "3.286",
     "variacao_pct": "-0.24%",
-    "volume": "51.86K",
-    "hora": "03:46:09"
+    "volume": "53.4K",
+    "hora": "03:48:11"
   },
   {
     "empresa": "Mota Engil",
-    "cotacao": "5.000",
+    "cotacao": "5.010",
     "maximo": "5.065",
     "minimo": "4.984",
-    "variacao_pct": "-1.19%",
-    "volume": "654.75K",
-    "hora": "03:45:31"
+    "variacao_pct": "-0.99%",
+    "volume": "660.54K",
+    "hora": "03:47:53"
   },
   {
     "empresa": "REN",
@@ -77,8 +77,8 @@
     "maximo": "18.30",
     "minimo": "18.20",
     "variacao_pct": "-0.33%",
-    "volume": "2.7K",
-    "hora": "03:41:17"
+    "volume": "2.76K",
+    "hora": "03:44:25"
   },
   {
     "empresa": "Sonae",
@@ -95,26 +95,26 @@
     "maximo": "3.855",
     "minimo": "3.840",
     "variacao_pct": "0.00%",
-    "volume": "59.13K",
-    "hora": "03:45:34"
+    "volume": "59.49K",
+    "hora": "03:46:49"
   },
   {
     "empresa": "EDP Renovaveis",
-    "cotacao": "11.41",
+    "cotacao": "11.39",
     "maximo": "11.46",
     "minimo": "11.30",
-    "variacao_pct": "+0.09%",
-    "volume": "70.92K",
-    "hora": "03:41:37"
+    "variacao_pct": "-0.09%",
+    "volume": "73.87K",
+    "hora": "03:48:11"
   },
   {
     "empresa": "Corticeira Amorim",
-    "cotacao": "7.18",
+    "cotacao": "7.19",
     "maximo": "7.23",
     "minimo": "7.18",
-    "variacao_pct": "-0.69%",
-    "volume": "11.37K",
-    "hora": "03:43:24"
+    "variacao_pct": "-0.55%",
+    "volume": "11.38K",
+    "hora": "03:46:06"
   },
   {
     "empresa": "Ibersol",
