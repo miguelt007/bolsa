@@ -4,7 +4,7 @@
     "cotacao": "16.63",
     "maximo": "16.63",
     "minimo": "16.20",
-    "variacao_pct": "+3.26%",
+    "variacao_pct": "+3.23%",
     "volume": "1.6M",
     "hora": "11:35:59"
   },
@@ -15,7 +15,7 @@
     "minimo": "19.92",
     "variacao_pct": "-3.48%",
     "volume": "1.65M",
-    "hora": "11:35:14"
+    "hora": "11:35:59"
   },
   {
     "empresa": "EDP",
@@ -33,7 +33,7 @@
     "minimo": "4.990",
     "variacao_pct": "-0.40%",
     "volume": "304.09K",
-    "hora": "11:35:14"
+    "hora": "11:35:59"
   },
   {
     "empresa": "Banco Comercial",
@@ -42,7 +42,7 @@
     "minimo": "0.7458",
     "variacao_pct": "+1.27%",
     "volume": "36.37M",
-    "hora": "11:35:11"
+    "hora": "11:35:59"
   },
   {
     "empresa": "The Navigator",
@@ -60,7 +60,7 @@
     "minimo": "4.986",
     "variacao_pct": "-1.96%",
     "volume": "1.66M",
-    "hora": "11:35:11"
+    "hora": "11:35:59"
   },
   {
     "empresa": "REN",
@@ -87,7 +87,7 @@
     "minimo": "1.3240",
     "variacao_pct": "-0.75%",
     "volume": "1.25M",
-    "hora": "11:35:15"
+    "hora": "11:35:59"
   },
   {
     "empresa": "Nos SGPS SA",
