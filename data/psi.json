@@ -5,8 +5,8 @@
     "maximo": "16.75",
     "minimo": "16.56",
     "variacao_pct": "+1.00%",
-    "volume": "41.31K",
-    "hora": "03:36:55"
+    "volume": "41.67K",
+    "hora": "03:39:02"
   },
   {
     "empresa": "Jeronimo Martins",
@@ -23,8 +23,8 @@
     "maximo": "4.115",
     "minimo": "4.081",
     "variacao_pct": "-0.37%",
-    "volume": "361.53K",
-    "hora": "03:37:40"
+    "volume": "366.52K",
+    "hora": "03:39:26"
   },
   {
     "empresa": "Altri",
@@ -37,12 +37,12 @@
   },
   {
     "empresa": "Banco Comercial",
-    "cotacao": "0.7682",
+    "cotacao": "0.7680",
     "maximo": "0.7694",
     "minimo": "0.7654",
-    "variacao_pct": "+0.95%",
-    "volume": "2.09M",
-    "hora": "03:35:23"
+    "variacao_pct": "+0.92%",
+    "volume": "2.13M",
+    "hora": "03:39:20"
   },
   {
     "empresa": "The Navigator",
@@ -59,8 +59,8 @@
     "maximo": "5.020",
     "minimo": "4.960",
     "variacao_pct": "-0.28%",
-    "volume": "177.37K",
-    "hora": "03:34:51"
+    "volume": "186.97K",
+    "hora": "03:39:39"
   },
   {
     "empresa": "REN",
@@ -77,8 +77,8 @@
     "maximo": "18.48",
     "minimo": "18.40",
     "variacao_pct": "+0.55%",
-    "volume": "11.56K",
-    "hora": "03:28:44"
+    "volume": "12.05K",
+    "hora": "03:39:30"
   },
   {
     "empresa": "Sonae",
@@ -104,8 +104,8 @@
     "maximo": "11.86",
     "minimo": "11.72",
     "variacao_pct": "-0.68%",
-    "volume": "45.22K",
-    "hora": "03:35:30"
+    "volume": "45.58K",
+    "hora": "03:38:15"
   },
   {
     "empresa": "Corticeira Amorim",
@@ -127,11 +127,11 @@
   },
   {
     "empresa": "CTT Correios de Portugal SA",
-    "cotacao": "7.22",
-    "maximo": "7.22",
+    "cotacao": "7.24",
+    "maximo": "7.24",
     "minimo": "7.20",
-    "variacao_pct": "+0.28%",
-    "volume": "7.75K",
-    "hora": "03:27:06"
+    "variacao_pct": "+0.56%",
+    "volume": "8.4K",
+    "hora": "03:39:51"
   }
 ]
