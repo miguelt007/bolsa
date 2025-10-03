@@ -10,12 +10,12 @@
   },
   {
     "empresa": "Jeronimo Martins",
-    "cotacao": "20.88",
+    "cotacao": "20.90",
     "maximo": "20.92",
     "minimo": "20.48",
-    "variacao_pct": "+1.66%",
-    "volume": "363.97K",
-    "hora": "05:26:25"
+    "variacao_pct": "+1.75%",
+    "volume": "382.08K",
+    "hora": "05:28:36"
   },
   {
     "empresa": "EDP",
@@ -28,12 +28,12 @@
   },
   {
     "empresa": "Altri",
-    "cotacao": "4.880",
+    "cotacao": "4.895",
     "maximo": "4.930",
     "minimo": "4.870",
-    "variacao_pct": "-0.81%",
-    "volume": "367.85K",
-    "hora": "05:22:35"
+    "variacao_pct": "-0.51%",
+    "volume": "374.11K",
+    "hora": "05:27:22"
   },
   {
     "empresa": "Banco Comercial",
@@ -64,21 +64,21 @@
   },
   {
     "empresa": "REN",
-    "cotacao": "3.035",
+    "cotacao": "3.040",
     "maximo": "3.050",
     "minimo": "3.030",
-    "variacao_pct": "-0.16%",
-    "volume": "63.79K",
-    "hora": "05:22:33"
+    "variacao_pct": "0.00%",
+    "volume": "73.79K",
+    "hora": "05:25:08"
   },
   {
     "empresa": "Semapa",
-    "cotacao": "18.42",
+    "cotacao": "18.48",
     "maximo": "18.48",
     "minimo": "18.36",
-    "variacao_pct": "+0.55%",
-    "volume": "13.84K",
-    "hora": "05:22:33"
+    "variacao_pct": "+0.87%",
+    "volume": "13.98K",
+    "hora": "05:27:24"
   },
   {
     "empresa": "Sonae",
