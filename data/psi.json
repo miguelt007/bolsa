@@ -28,12 +28,12 @@
   },
   {
     "empresa": "Altri",
-    "cotacao": "4.890",
+    "cotacao": "4.885",
     "maximo": "4.930",
     "minimo": "4.865",
-    "variacao_pct": "-0.61%",
-    "volume": "773.96K",
-    "hora": "10:46:02"
+    "variacao_pct": "-0.71%",
+    "volume": "778.66K",
+    "hora": "10:48:26"
   },
   {
     "empresa": "Banco Comercial",
@@ -122,16 +122,16 @@
     "maximo": "10.15",
     "minimo": "10.10",
     "variacao_pct": "0.00%",
-    "volume": "12.52K",
-    "hora": "10:44:04"
+    "volume": "12.53K",
+    "hora": "10:48:09"
   },
   {
     "empresa": "CTT Correios de Portugal SA",
-    "cotacao": "7.21",
+    "cotacao": "7.20",
     "maximo": "7.27",
     "minimo": "7.19",
-    "variacao_pct": "+0.14%",
-    "volume": "137.36K",
-    "hora": "10:46:49"
+    "variacao_pct": "0.00%",
+    "volume": "137.64K",
+    "hora": "10:46:54"
   }
 ]
