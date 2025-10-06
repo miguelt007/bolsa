@@ -6,7 +6,7 @@
     "minimo": "17.03",
     "variacao_pct": "+1.81%",
     "volume": "1.99M",
-    "hora": "11:35:25"
+    "hora": "11:35:59"
   },
   {
     "empresa": "Jeronimo Martins",
@@ -42,7 +42,7 @@
     "minimo": "0.7482",
     "variacao_pct": "-0.66%",
     "volume": "52.24M",
-    "hora": "11:35:23"
+    "hora": "11:35:59"
   },
   {
     "empresa": "The Navigator",
@@ -118,12 +118,12 @@
   },
   {
     "empresa": "Ibersol",
-    "cotacao": "10.25",
+    "cotacao": "10.15",
     "maximo": "10.25",
     "minimo": "10.10",
-    "variacao_pct": "+1.49%",
-    "volume": "18.66K",
-    "hora": "11:29:51"
+    "variacao_pct": "+0.50%",
+    "volume": "20.7K",
+    "hora": "11:35:21"
   },
   {
     "empresa": "CTT Correios de Portugal SA",
