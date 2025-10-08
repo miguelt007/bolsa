@@ -1,12 +1,12 @@
 [
   {
     "empresa": "Galp Energia",
-    "cotacao": "16.96",
+    "cotacao": "16.95",
     "maximo": "17.12",
     "minimo": "16.80",
-    "variacao_pct": "-0.09%",
-    "volume": "227.57K",
-    "hora": "05:36:41"
+    "variacao_pct": "-0.15%",
+    "volume": "228.09K",
+    "hora": "05:38:01"
   },
   {
     "empresa": "Jeronimo Martins",
@@ -14,26 +14,26 @@
     "maximo": "20.88",
     "minimo": "20.72",
     "variacao_pct": "+0.48%",
-    "volume": "69.15K",
-    "hora": "05:32:31"
+    "volume": "69.75K",
+    "hora": "05:37:48"
   },
   {
     "empresa": "EDP",
-    "cotacao": "4.141",
+    "cotacao": "4.142",
     "maximo": "4.154",
     "minimo": "4.111",
-    "variacao_pct": "+0.83%",
-    "volume": "1.44M",
-    "hora": "05:36:41"
+    "variacao_pct": "+0.85%",
+    "volume": "1.46M",
+    "hora": "05:38:43"
   },
   {
     "empresa": "Altri",
-    "cotacao": "4.930",
-    "maximo": "4.930",
+    "cotacao": "4.935",
+    "maximo": "4.940",
     "minimo": "4.790",
-    "variacao_pct": "+3.14%",
-    "volume": "331.16K",
-    "hora": "05:36:41"
+    "variacao_pct": "+3.24%",
+    "volume": "341.66K",
+    "hora": "05:38:21"
   },
   {
     "empresa": "Banco Comercial",
@@ -42,16 +42,16 @@
     "minimo": "0.7504",
     "variacao_pct": "+1.28%",
     "volume": "14.57M",
-    "hora": "05:36:39"
+    "hora": "05:38:14"
   },
   {
     "empresa": "The Navigator",
-    "cotacao": "3.136",
-    "maximo": "3.136",
+    "cotacao": "3.138",
+    "maximo": "3.138",
     "minimo": "3.094",
-    "variacao_pct": "+1.03%",
-    "volume": "678.69K",
-    "hora": "05:37:37"
+    "variacao_pct": "+1.10%",
+    "volume": "686.69K",
+    "hora": "05:38:28"
   },
   {
     "empresa": "Mota Engil",
