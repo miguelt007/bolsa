@@ -14,17 +14,17 @@
     "maximo": "20.86",
     "minimo": "20.68",
     "variacao_pct": "+0.97%",
-    "volume": "85.8K",
-    "hora": "04:45:48"
+    "volume": "92.75K",
+    "hora": "04:50:26"
   },
   {
     "empresa": "EDP",
-    "cotacao": "4.210",
+    "cotacao": "4.211",
     "maximo": "4.216",
     "minimo": "4.192",
-    "variacao_pct": "+0.12%",
-    "volume": "565.36K",
-    "hora": "04:48:50"
+    "variacao_pct": "+0.14%",
+    "volume": "573.23K",
+    "hora": "04:52:09"
   },
   {
     "empresa": "Altri",
@@ -37,30 +37,30 @@
   },
   {
     "empresa": "Banco Comercial",
-    "cotacao": "0.7558",
+    "cotacao": "0.7560",
     "maximo": "0.7636",
-    "minimo": "0.7556",
-    "variacao_pct": "-0.42%",
-    "volume": "9.19M",
-    "hora": "04:48:45"
+    "minimo": "0.7546",
+    "variacao_pct": "-0.40%",
+    "volume": "10.14M",
+    "hora": "04:53:34"
   },
   {
     "empresa": "The Navigator",
-    "cotacao": "3.172",
+    "cotacao": "3.174",
     "maximo": "3.190",
     "minimo": "3.170",
-    "variacao_pct": "+0.25%",
-    "volume": "143.73K",
-    "hora": "04:41:51"
+    "variacao_pct": "+0.32%",
+    "volume": "144.18K",
+    "hora": "04:50:42"
   },
   {
     "empresa": "Mota Engil",
-    "cotacao": "5.430",
+    "cotacao": "5.485",
     "maximo": "5.740",
     "minimo": "5.390",
-    "variacao_pct": "-5.73%",
-    "volume": "1.47M",
-    "hora": "04:48:26"
+    "variacao_pct": "-4.77%",
+    "volume": "1.58M",
+    "hora": "04:52:29"
   },
   {
     "empresa": "REN",
@@ -68,8 +68,8 @@
     "maximo": "3.115",
     "minimo": "3.060",
     "variacao_pct": "+1.63%",
-    "volume": "215.71K",
-    "hora": "04:46:43"
+    "volume": "226.76K",
+    "hora": "04:52:08"
   },
   {
     "empresa": "Semapa",
@@ -86,8 +86,8 @@
     "maximo": "1.3800",
     "minimo": "1.3720",
     "variacao_pct": "+0.15%",
-    "volume": "113.22K",
-    "hora": "04:48:22"
+    "volume": "116.34K",
+    "hora": "04:50:02"
   },
   {
     "empresa": "Nos SGPS SA",
@@ -104,8 +104,8 @@
     "maximo": "12.95",
     "minimo": "12.68",
     "variacao_pct": "-1.08%",
-    "volume": "197.88K",
-    "hora": "04:48:50"
+    "volume": "201.4K",
+    "hora": "04:53:24"
   },
   {
     "empresa": "Corticeira Amorim",
@@ -131,7 +131,7 @@
     "maximo": "7.28",
     "minimo": "7.13",
     "variacao_pct": "+1.55%",
-    "volume": "182.82K",
-    "hora": "04:47:38"
+    "volume": "182.83K",
+    "hora": "04:51:53"
   }
 ]
