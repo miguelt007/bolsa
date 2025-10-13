@@ -4,9 +4,9 @@
     "cotacao": "16.20",
     "maximo": "16.31",
     "minimo": "16.16",
-    "variacao_pct": "+0.19%",
-    "volume": "276.44K",
-    "hora": "06:41:09"
+    "variacao_pct": "+0.22%",
+    "volume": "277.23K",
+    "hora": "06:42:46"
   },
   {
     "empresa": "Jeronimo Martins",
@@ -14,17 +14,17 @@
     "maximo": "20.80",
     "minimo": "20.64",
     "variacao_pct": "0.00%",
-    "volume": "109.15K",
-    "hora": "06:41:32"
+    "volume": "109.16K",
+    "hora": "06:43:28"
   },
   {
     "empresa": "EDP",
-    "cotacao": "4.256",
+    "cotacao": "4.255",
     "maximo": "4.267",
     "minimo": "4.215",
-    "variacao_pct": "+0.83%",
+    "variacao_pct": "+0.81%",
     "volume": "2.07M",
-    "hora": "06:42:05"
+    "hora": "06:44:54"
   },
   {
     "empresa": "Altri",
@@ -37,21 +37,21 @@
   },
   {
     "empresa": "Banco Comercial",
-    "cotacao": "0.7524",
+    "cotacao": "0.7518",
     "maximo": "0.7536",
     "minimo": "0.7470",
-    "variacao_pct": "+0.99%",
-    "volume": "9M",
-    "hora": "06:41:30"
+    "variacao_pct": "+0.91%",
+    "volume": "9.01M",
+    "hora": "06:43:12"
   },
   {
     "empresa": "The Navigator",
-    "cotacao": "3.136",
+    "cotacao": "3.132",
     "maximo": "3.138",
     "minimo": "3.114",
-    "variacao_pct": "+0.45%",
-    "volume": "278K",
-    "hora": "06:37:23"
+    "variacao_pct": "+0.32%",
+    "volume": "278.93K",
+    "hora": "06:42:51"
   },
   {
     "empresa": "Mota Engil",
@@ -59,8 +59,8 @@
     "maximo": "5.800",
     "minimo": "5.630",
     "variacao_pct": "-0.44%",
-    "volume": "1.07M",
-    "hora": "06:41:54"
+    "volume": "1.08M",
+    "hora": "06:43:50"
   },
   {
     "empresa": "REN",
@@ -86,8 +86,8 @@
     "maximo": "1.3800",
     "minimo": "1.3640",
     "variacao_pct": "0.00%",
-    "volume": "321.7K",
-    "hora": "06:31:29"
+    "volume": "321.9K",
+    "hora": "06:43:54"
   },
   {
     "empresa": "Nos SGPS SA",
@@ -95,8 +95,8 @@
     "maximo": "3.770",
     "minimo": "3.740",
     "variacao_pct": "-0.53%",
-    "volume": "199.81K",
-    "hora": "06:42:14"
+    "volume": "201.81K",
+    "hora": "06:43:27"
   },
   {
     "empresa": "EDP Renovaveis",
@@ -105,7 +105,7 @@
     "minimo": "12.60",
     "variacao_pct": "+0.16%",
     "volume": "209.07K",
-    "hora": "06:38:52"
+    "hora": "06:42:10"
   },
   {
     "empresa": "Corticeira Amorim",
@@ -131,7 +131,7 @@
     "maximo": "7.14",
     "minimo": "7.00",
     "variacao_pct": "-0.56%",
-    "volume": "214.28K",
-    "hora": "06:41:42"
+    "volume": "215.65K",
+    "hora": "06:42:46"
   }
 ]
