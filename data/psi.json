@@ -1,30 +1,30 @@
 [
   {
     "empresa": "Galp Energia",
-    "cotacao": "16.17",
+    "cotacao": "16.18",
     "maximo": "16.31",
     "minimo": "16.16",
-    "variacao_pct": "-0.03%",
-    "volume": "248.86K",
-    "hora": "05:41:51"
+    "variacao_pct": "+0.03%",
+    "volume": "249.52K",
+    "hora": "05:43:16"
   },
   {
     "empresa": "Jeronimo Martins",
-    "cotacao": "20.72",
+    "cotacao": "20.70",
     "maximo": "20.80",
     "minimo": "20.64",
-    "variacao_pct": "+0.10%",
-    "volume": "81.24K",
-    "hora": "05:40:09"
+    "variacao_pct": "0.00%",
+    "volume": "84.13K",
+    "hora": "05:44:24"
   },
   {
     "empresa": "EDP",
-    "cotacao": "4.257",
+    "cotacao": "4.258",
     "maximo": "4.261",
     "minimo": "4.215",
-    "variacao_pct": "+0.85%",
+    "variacao_pct": "+0.88%",
     "volume": "1.4M",
-    "hora": "05:42:42"
+    "hora": "05:43:58"
   },
   {
     "empresa": "Altri",
@@ -50,8 +50,8 @@
     "maximo": "3.138",
     "minimo": "3.114",
     "variacao_pct": "+0.19%",
-    "volume": "233.74K",
-    "hora": "05:38:48"
+    "volume": "234.38K",
+    "hora": "05:44:00"
   },
   {
     "empresa": "Mota Engil",
@@ -64,12 +64,12 @@
   },
   {
     "empresa": "REN",
-    "cotacao": "3.120",
+    "cotacao": "3.110",
     "maximo": "3.130",
     "minimo": "3.110",
-    "variacao_pct": "-0.16%",
-    "volume": "106.31K",
-    "hora": "05:40:59"
+    "variacao_pct": "-0.48%",
+    "volume": "106.45K",
+    "hora": "05:43:35"
   },
   {
     "empresa": "Semapa",
@@ -91,21 +91,21 @@
   },
   {
     "empresa": "Nos SGPS SA",
-    "cotacao": "3.755",
+    "cotacao": "3.745",
     "maximo": "3.770",
     "minimo": "3.740",
-    "variacao_pct": "-0.13%",
-    "volume": "169.83K",
-    "hora": "05:32:24"
+    "variacao_pct": "-0.40%",
+    "volume": "171.44K",
+    "hora": "05:42:33"
   },
   {
     "empresa": "EDP Renovaveis",
-    "cotacao": "12.71",
+    "cotacao": "12.72",
     "maximo": "12.87",
     "minimo": "12.60",
-    "variacao_pct": "+0.08%",
-    "volume": "150.23K",
-    "hora": "05:41:00"
+    "variacao_pct": "+0.16%",
+    "volume": "154.43K",
+    "hora": "05:42:42"
   },
   {
     "empresa": "Corticeira Amorim",
