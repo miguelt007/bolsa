@@ -14,17 +14,17 @@
     "maximo": "20.60",
     "minimo": "20.50",
     "variacao_pct": "-0.29%",
-    "volume": "63.4K",
-    "hora": "06:36:03"
+    "volume": "64.52K",
+    "hora": "06:52:53"
   },
   {
     "empresa": "EDP",
-    "cotacao": "4.342",
+    "cotacao": "4.345",
     "maximo": "4.360",
     "minimo": "4.315",
-    "variacao_pct": "+0.21%",
-    "volume": "1.72M",
-    "hora": "06:48:07"
+    "variacao_pct": "+0.28%",
+    "volume": "1.73M",
+    "hora": "06:51:49"
   },
   {
     "empresa": "Altri",
@@ -37,21 +37,21 @@
   },
   {
     "empresa": "Banco Comercial",
-    "cotacao": "0.7586",
+    "cotacao": "0.7602",
     "maximo": "0.7626",
     "minimo": "0.7530",
-    "variacao_pct": "+0.08%",
-    "volume": "11.5M",
-    "hora": "06:46:46"
+    "variacao_pct": "+0.29%",
+    "volume": "12.06M",
+    "hora": "06:52:16"
   },
   {
     "empresa": "The Navigator",
-    "cotacao": "3.096",
+    "cotacao": "3.094",
     "maximo": "3.110",
     "minimo": "3.084",
-    "variacao_pct": "-0.32%",
-    "volume": "600.86K",
-    "hora": "06:47:00"
+    "variacao_pct": "-0.39%",
+    "volume": "603.13K",
+    "hora": "06:49:42"
   },
   {
     "empresa": "Mota Engil",
@@ -60,7 +60,7 @@
     "minimo": "5.610",
     "variacao_pct": "-0.52%",
     "volume": "1.33M",
-    "hora": "06:46:17"
+    "hora": "06:50:20"
   },
   {
     "empresa": "REN",
@@ -91,21 +91,21 @@
   },
   {
     "empresa": "Nos SGPS SA",
-    "cotacao": "3.710",
+    "cotacao": "3.715",
     "maximo": "3.750",
     "minimo": "3.700",
-    "variacao_pct": "-0.80%",
-    "volume": "183.4K",
-    "hora": "06:47:17"
+    "variacao_pct": "-0.67%",
+    "volume": "184.8K",
+    "hora": "06:54:23"
   },
   {
     "empresa": "EDP Renovaveis",
-    "cotacao": "13.54",
+    "cotacao": "13.53",
     "maximo": "13.58",
     "minimo": "13.33",
-    "variacao_pct": "+2.42%",
-    "volume": "371.43K",
-    "hora": "06:47:01"
+    "variacao_pct": "+2.34%",
+    "volume": "376.17K",
+    "hora": "06:51:24"
   },
   {
     "empresa": "Corticeira Amorim",
@@ -113,8 +113,8 @@
     "maximo": "7.12",
     "minimo": "7.07",
     "variacao_pct": "+0.56%",
-    "volume": "26.77K",
-    "hora": "06:37:49"
+    "volume": "26.99K",
+    "hora": "06:51:05"
   },
   {
     "empresa": "Ibersol",
@@ -131,7 +131,7 @@
     "maximo": "7.00",
     "minimo": "6.86",
     "variacao_pct": "-0.43%",
-    "volume": "244.19K",
-    "hora": "06:46:04"
+    "volume": "244.69K",
+    "hora": "06:48:19"
   }
 ]
