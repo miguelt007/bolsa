@@ -1,93 +1,93 @@
 [
   {
     "empresa": "Galp Energia",
-    "cotacao": "16.05",
+    "cotacao": "16.02",
     "maximo": "16.11",
     "minimo": "16.02",
-    "variacao_pct": "+0.31%",
-    "volume": "20.47K",
-    "hora": "03:13:26"
+    "variacao_pct": "+0.13%",
+    "volume": "27.89K",
+    "hora": "03:29:49"
   },
   {
     "empresa": "Jeronimo Martins",
-    "cotacao": "20.40",
+    "cotacao": "20.34",
     "maximo": "20.40",
     "minimo": "20.24",
-    "variacao_pct": "0.00%",
-    "volume": "29.59K",
-    "hora": "03:12:30"
+    "variacao_pct": "-0.29%",
+    "volume": "36.13K",
+    "hora": "03:20:08"
   },
   {
     "empresa": "EDP",
-    "cotacao": "4.431",
-    "maximo": "4.433",
+    "cotacao": "4.443",
+    "maximo": "4.444",
     "minimo": "4.422",
-    "variacao_pct": "-0.05%",
-    "volume": "91.22K",
-    "hora": "03:12:52"
+    "variacao_pct": "+0.23%",
+    "volume": "193.24K",
+    "hora": "03:28:57"
   },
   {
     "empresa": "Altri",
-    "cotacao": "4.965",
+    "cotacao": "4.980",
     "maximo": "4.990",
     "minimo": "4.965",
-    "variacao_pct": "+0.40%",
-    "volume": "4.45K",
-    "hora": "03:10:30"
+    "variacao_pct": "+0.71%",
+    "volume": "9K",
+    "hora": "03:28:17"
   },
   {
     "empresa": "Banco Comercial",
-    "cotacao": "0.7534",
+    "cotacao": "0.7558",
     "maximo": "0.7558",
     "minimo": "0.7484",
-    "variacao_pct": "+1.92%",
-    "volume": "6.27M",
-    "hora": "03:13:00"
+    "variacao_pct": "+2.25%",
+    "volume": "8.37M",
+    "hora": "03:29:25"
   },
   {
     "empresa": "The Navigator",
-    "cotacao": "3.088",
-    "maximo": "3.100",
+    "cotacao": "3.102",
+    "maximo": "3.102",
     "minimo": "3.084",
-    "variacao_pct": "-0.19%",
-    "volume": "37.71K",
-    "hora": "03:12:18"
+    "variacao_pct": "+0.26%",
+    "volume": "69.76K",
+    "hora": "03:29:52"
   },
   {
     "empresa": "Mota Engil",
-    "cotacao": "5.815",
-    "maximo": "5.815",
+    "cotacao": "5.830",
+    "maximo": "5.840",
     "minimo": "5.770",
-    "variacao_pct": "+1.39%",
-    "volume": "73.69K",
-    "hora": "03:11:59"
+    "variacao_pct": "+1.66%",
+    "volume": "216.02K",
+    "hora": "03:30:05"
   },
   {
     "empresa": "REN",
-    "cotacao": "3.115",
+    "cotacao": "3.110",
     "maximo": "3.125",
     "minimo": "3.080",
-    "variacao_pct": "+0.32%",
-    "volume": "53.27K",
-    "hora": "03:12:47"
+    "variacao_pct": "+0.16%",
+    "volume": "55.79K",
+    "hora": "03:18:43"
   },
   {
     "empresa": "Semapa",
-    "cotacao": "18.08",
+    "cotacao": "17.98",
     "maximo": "18.14",
-    "minimo": "18.08",
-    "variacao_pct": "+1.01%",
-    "volume": "469",
-    "hora": "03:00:05"
+    "minimo": "17.98",
+    "variacao_pct": "+0.45%",
+    "volume": "613",
+    "hora": "03:16:04"
   },
   {
     "empresa": "Sonae",
-    "cotacao": "1.3760",
-    "maximo": "1.3780",
+    "cotacao": "1.3820",
+    "maximo": "1.3820",
     "minimo": "1.3720",
-    "variacao_pct": "-0.15%",
-    "volume": "17.42K",
-    "hora": "03:03:18"
+    "variacao_pct": "+0.29%",
+    "volume": "86.25K",
+    "hora": "03:28:05"
   },
   {
     "empresa": "Nos SGPS SA",
@@ -95,17 +95,17 @@
     "maximo": "3.740",
     "minimo": "3.730",
     "variacao_pct": "+0.13%",
-    "volume": "5.26K",
-    "hora": "03:13:03"
+    "volume": "7.29K",
+    "hora": "03:23:14"
   },
   {
     "empresa": "EDP Renovaveis",
-    "cotacao": "13.38",
-    "maximo": "13.42",
-    "minimo": "13.35",
-    "variacao_pct": "-0.67%",
-    "volume": "18.36K",
-    "hora": "03:12:56"
+    "cotacao": "13.46",
+    "maximo": "13.47",
+    "minimo": "13.34",
+    "variacao_pct": "-0.07%",
+    "volume": "31.61K",
+    "hora": "03:28:13"
   },
   {
     "empresa": "Corticeira Amorim",
@@ -127,11 +127,11 @@
   },
   {
     "empresa": "CTT Correios de Portugal SA",
-    "cotacao": "6.90",
-    "maximo": "6.93",
+    "cotacao": "6.94",
+    "maximo": "6.94",
     "minimo": "6.89",
-    "variacao_pct": "0.00%",
-    "volume": "9.95K",
-    "hora": "03:05:50"
+    "variacao_pct": "+0.58%",
+    "volume": "11.17K",
+    "hora": "03:24:19"
   }
 ]
