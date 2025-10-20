@@ -32,8 +32,8 @@
     "maximo": "5.010",
     "minimo": "4.965",
     "variacao_pct": "+0.71%",
-    "volume": "175.26K",
-    "hora": "11:16:09"
+    "volume": "208.87K",
+    "hora": "11:35:03"
   },
   {
     "empresa": "Banco Comercial",
@@ -73,21 +73,21 @@
   },
   {
     "empresa": "Semapa",
-    "cotacao": "18.00",
+    "cotacao": "18.06",
     "maximo": "18.14",
     "minimo": "17.92",
-    "variacao_pct": "+0.56%",
-    "volume": "13.19K",
-    "hora": "11:26:02"
+    "variacao_pct": "+0.89%",
+    "volume": "14.78K",
+    "hora": "11:35:04"
   },
   {
     "empresa": "Sonae",
-    "cotacao": "1.4040",
+    "cotacao": "1.4080",
     "maximo": "1.4100",
     "minimo": "1.3720",
-    "variacao_pct": "+1.89%",
-    "volume": "1.43M",
-    "hora": "11:29:36"
+    "variacao_pct": "+2.18%",
+    "volume": "1.82M",
+    "hora": "11:35:14"
   },
   {
     "empresa": "Nos SGPS SA",
@@ -104,8 +104,8 @@
     "maximo": "13.57",
     "minimo": "13.34",
     "variacao_pct": "-0.15%",
-    "volume": "901.4K",
-    "hora": "11:35:23"
+    "volume": "924.49K",
+    "hora": "11:35:59"
   },
   {
     "empresa": "Corticeira Amorim",
@@ -113,17 +113,17 @@
     "maximo": "7.22",
     "minimo": "7.10",
     "variacao_pct": "+1.41%",
-    "volume": "98.08K",
-    "hora": "11:23:46"
+    "volume": "116.25K",
+    "hora": "11:35:19"
   },
   {
     "empresa": "Ibersol",
-    "cotacao": "10.10",
+    "cotacao": "10.15",
     "maximo": "10.20",
     "minimo": "9.98",
-    "variacao_pct": "0.00%",
-    "volume": "33.12K",
-    "hora": "11:21:24"
+    "variacao_pct": "+0.50%",
+    "volume": "34.62K",
+    "hora": "11:35:17"
   },
   {
     "empresa": "CTT Correios de Portugal SA",
@@ -131,7 +131,7 @@
     "maximo": "6.97",
     "minimo": "6.89",
     "variacao_pct": "+0.43%",
-    "volume": "88.98K",
-    "hora": "11:09:31"
+    "volume": "153.85K",
+    "hora": "11:35:10"
   }
 ]
