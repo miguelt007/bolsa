@@ -1,12 +1,12 @@
 [
   {
     "empresa": "Galp Energia",
-    "cotacao": "16.85",
+    "cotacao": "16.87",
     "maximo": "17.00",
     "minimo": "16.63",
-    "variacao_pct": "+2.46%",
-    "volume": "1.51M",
-    "hora": "10:49:47"
+    "variacao_pct": "+2.58%",
+    "volume": "1.59M",
+    "hora": "11:08:47"
   },
   {
     "empresa": "Jeronimo Martins",
@@ -14,17 +14,17 @@
     "maximo": "20.56",
     "minimo": "20.20",
     "variacao_pct": "-0.20%",
-    "volume": "324.38K",
-    "hora": "10:49:56"
+    "volume": "336.08K",
+    "hora": "11:07:07"
   },
   {
     "empresa": "EDP",
-    "cotacao": "4.397",
+    "cotacao": "4.403",
     "maximo": "4.447",
     "minimo": "4.373",
-    "variacao_pct": "-1.15%",
-    "volume": "3.31M",
-    "hora": "10:49:30"
+    "variacao_pct": "-1.01%",
+    "volume": "3.41M",
+    "hora": "11:08:09"
   },
   {
     "empresa": "Altri",
@@ -32,17 +32,17 @@
     "maximo": "5.080",
     "minimo": "5.010",
     "variacao_pct": "+0.40%",
-    "volume": "374.92K",
-    "hora": "10:27:08"
+    "volume": "375.25K",
+    "hora": "11:00:54"
   },
   {
     "empresa": "Banco Comercial",
-    "cotacao": "0.7562",
+    "cotacao": "0.7568",
     "maximo": "0.7622",
     "minimo": "0.7486",
-    "variacao_pct": "+0.16%",
-    "volume": "21.56M",
-    "hora": "10:47:49"
+    "variacao_pct": "+0.24%",
+    "volume": "21.8M",
+    "hora": "11:08:34"
   },
   {
     "empresa": "The Navigator",
@@ -50,17 +50,17 @@
     "maximo": "3.138",
     "minimo": "3.062",
     "variacao_pct": "-1.03%",
-    "volume": "1.51M",
-    "hora": "10:45:26"
+    "volume": "1.53M",
+    "hora": "11:09:23"
   },
   {
     "empresa": "Mota Engil",
-    "cotacao": "5.805",
-    "maximo": "5.820",
+    "cotacao": "5.850",
+    "maximo": "5.850",
     "minimo": "5.720",
-    "variacao_pct": "+0.43%",
-    "volume": "881.73K",
-    "hora": "10:46:52"
+    "variacao_pct": "+1.21%",
+    "volume": "1M",
+    "hora": "11:08:41"
   },
   {
     "empresa": "REN",
@@ -68,44 +68,44 @@
     "maximo": "3.135",
     "minimo": "3.100",
     "variacao_pct": "+0.32%",
-    "volume": "201.72K",
-    "hora": "10:36:26"
+    "volume": "212.01K",
+    "hora": "11:06:17"
   },
   {
     "empresa": "Semapa",
-    "cotacao": "18.00",
+    "cotacao": "18.04",
     "maximo": "18.12",
     "minimo": "17.64",
-    "variacao_pct": "+1.69%",
-    "volume": "44.79K",
-    "hora": "10:20:43"
+    "variacao_pct": "+1.92%",
+    "volume": "45.51K",
+    "hora": "11:05:28"
   },
   {
     "empresa": "Sonae",
-    "cotacao": "1.4320",
+    "cotacao": "1.4340",
     "maximo": "1.4420",
     "minimo": "1.4100",
-    "variacao_pct": "+1.70%",
-    "volume": "1.36M",
-    "hora": "10:23:49"
+    "variacao_pct": "+1.85%",
+    "volume": "1.38M",
+    "hora": "11:07:00"
   },
   {
     "empresa": "Nos SGPS SA",
-    "cotacao": "3.750",
+    "cotacao": "3.755",
     "maximo": "3.780",
     "minimo": "3.730",
-    "variacao_pct": "0.00%",
-    "volume": "351.71K",
-    "hora": "10:45:56"
+    "variacao_pct": "+0.13%",
+    "volume": "446.11K",
+    "hora": "10:56:27"
   },
   {
     "empresa": "EDP Renovaveis",
-    "cotacao": "13.28",
+    "cotacao": "13.29",
     "maximo": "13.33",
     "minimo": "13.15",
-    "variacao_pct": "+0.30%",
-    "volume": "217.14K",
-    "hora": "10:45:58"
+    "variacao_pct": "+0.38%",
+    "volume": "223.85K",
+    "hora": "11:02:57"
   },
   {
     "empresa": "Corticeira Amorim",
@@ -113,8 +113,8 @@
     "maximo": "7.36",
     "minimo": "7.27",
     "variacao_pct": "-0.14%",
-    "volume": "76.92K",
-    "hora": "10:18:18"
+    "volume": "83.39K",
+    "hora": "10:50:32"
   },
   {
     "empresa": "Ibersol",
@@ -122,8 +122,8 @@
     "maximo": "10.20",
     "minimo": "9.98",
     "variacao_pct": "+0.50%",
-    "volume": "23.19K",
-    "hora": "10:28:18"
+    "volume": "23.24K",
+    "hora": "10:55:23"
   },
   {
     "empresa": "CTT Correios de Portugal SA",
@@ -131,7 +131,7 @@
     "maximo": "7.22",
     "minimo": "6.87",
     "variacao_pct": "+4.05%",
-    "volume": "486.97K",
-    "hora": "10:40:03"
+    "volume": "500.83K",
+    "hora": "11:08:18"
   }
 ]
