@@ -82,12 +82,12 @@
   },
   {
     "empresa": "Sonae",
-    "cotacao": "1.4320",
+    "cotacao": "1.4300",
     "maximo": "1.4400",
     "minimo": "1.4240",
-    "variacao_pct": "+0.42%",
-    "volume": "137.02K",
-    "hora": "04:30:47"
+    "variacao_pct": "+0.28%",
+    "volume": "140.34K",
+    "hora": "04:31:02"
   },
   {
     "empresa": "Nos SGPS SA",
@@ -127,11 +127,11 @@
   },
   {
     "empresa": "CTT Correios de Portugal SA",
-    "cotacao": "7.18",
+    "cotacao": "7.19",
     "maximo": "7.23",
     "minimo": "7.13",
-    "variacao_pct": "+0.14%",
-    "volume": "48.35K",
-    "hora": "04:28:23"
+    "variacao_pct": "+0.28%",
+    "volume": "50.35K",
+    "hora": "04:30:57"
   }
 ]
