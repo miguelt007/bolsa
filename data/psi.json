@@ -19,12 +19,12 @@
   },
   {
     "empresa": "EDP",
-    "cotacao": "4.341",
+    "cotacao": "4.351",
     "maximo": "4.411",
     "minimo": "4.338",
-    "variacao_pct": "-1.63%",
-    "volume": "1.87M",
-    "hora": "06:45:38"
+    "variacao_pct": "-1.40%",
+    "volume": "1.91M",
+    "hora": "06:51:19"
   },
   {
     "empresa": "Altri",
@@ -82,12 +82,12 @@
   },
   {
     "empresa": "Sonae",
-    "cotacao": "1.4400",
+    "cotacao": "1.4380",
     "maximo": "1.4400",
     "minimo": "1.4240",
-    "variacao_pct": "+0.98%",
-    "volume": "351.41K",
-    "hora": "06:42:43"
+    "variacao_pct": "+0.84%",
+    "volume": "352.61K",
+    "hora": "06:46:12"
   },
   {
     "empresa": "Nos SGPS SA",
@@ -100,12 +100,12 @@
   },
   {
     "empresa": "EDP Renovaveis",
-    "cotacao": "13.14",
+    "cotacao": "13.16",
     "maximo": "13.20",
     "minimo": "13.04",
-    "variacao_pct": "-1.35%",
-    "volume": "231.22K",
-    "hora": "06:38:27"
+    "variacao_pct": "-1.20%",
+    "volume": "246.21K",
+    "hora": "06:47:56"
   },
   {
     "empresa": "Corticeira Amorim",
