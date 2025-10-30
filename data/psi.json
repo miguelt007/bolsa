@@ -100,12 +100,12 @@
   },
   {
     "empresa": "EDP Renovaveis",
-    "cotacao": "12.82",
+    "cotacao": "12.83",
     "maximo": "12.85",
     "minimo": "12.66",
-    "variacao_pct": "0.00%",
-    "volume": "390.43K",
-    "hora": "12:28:44"
+    "variacao_pct": "+0.08%",
+    "volume": "852.11K",
+    "hora": "12:35:04"
   },
   {
     "empresa": "Corticeira Amorim",
@@ -122,8 +122,8 @@
     "maximo": "10.30",
     "minimo": "9.96",
     "variacao_pct": "-3.57%",
-    "volume": "109.89K",
-    "hora": "12:27:10"
+    "volume": "116.24K",
+    "hora": "12:35:04"
   },
   {
     "empresa": "CTT Correios de Portugal SA",
