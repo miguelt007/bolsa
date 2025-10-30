@@ -1,12 +1,12 @@
 [
   {
     "empresa": "Galp Energia",
-    "cotacao": "17.16",
+    "cotacao": "17.14",
     "maximo": "17.32",
     "minimo": "17.13",
-    "variacao_pct": "-0.78%",
-    "volume": "108.79K",
-    "hora": "05:49:28"
+    "variacao_pct": "-0.87%",
+    "volume": "107.11K",
+    "hora": "05:44:27"
   },
   {
     "empresa": "Jeronimo Martins",
@@ -32,17 +32,17 @@
     "maximo": "5.000",
     "minimo": "4.980",
     "variacao_pct": "+0.10%",
-    "volume": "49.66K",
-    "hora": "05:48:28"
+    "volume": "48.86K",
+    "hora": "05:38:05"
   },
   {
     "empresa": "Banco Comercial",
-    "cotacao": "0.7636",
+    "cotacao": "0.7642",
     "maximo": "0.7870",
     "minimo": "0.7548",
-    "variacao_pct": "-2.60%",
-    "volume": "63.68M",
-    "hora": "05:49:43"
+    "variacao_pct": "-2.53%",
+    "volume": "63.75M",
+    "hora": "05:50:04"
   },
   {
     "empresa": "The Navigator",
@@ -68,8 +68,8 @@
     "maximo": "3.275",
     "minimo": "3.245",
     "variacao_pct": "+0.62%",
-    "volume": "117.01K",
-    "hora": "05:49:41"
+    "volume": "117.92K",
+    "hora": "05:49:42"
   },
   {
     "empresa": "Semapa",
@@ -82,12 +82,12 @@
   },
   {
     "empresa": "Sonae",
-    "cotacao": "1.4320",
+    "cotacao": "1.4300",
     "maximo": "1.4380",
     "minimo": "1.4280",
-    "variacao_pct": "+0.28%",
-    "volume": "250.65K",
-    "hora": "05:48:51"
+    "variacao_pct": "+0.14%",
+    "volume": "253.07K",
+    "hora": "05:49:33"
   },
   {
     "empresa": "Nos SGPS SA",
@@ -95,17 +95,17 @@
     "maximo": "3.805",
     "minimo": "3.760",
     "variacao_pct": "-0.79%",
-    "volume": "79.89K",
-    "hora": "05:47:39"
+    "volume": "79.94K",
+    "hora": "05:49:18"
   },
   {
     "empresa": "EDP Renovaveis",
-    "cotacao": "12.76",
+    "cotacao": "12.77",
     "maximo": "12.85",
     "minimo": "12.74",
-    "variacao_pct": "-0.47%",
-    "volume": "45.58K",
-    "hora": "05:46:13"
+    "variacao_pct": "-0.39%",
+    "volume": "39.86K",
+    "hora": "05:39:06"
   },
   {
     "empresa": "Corticeira Amorim",
