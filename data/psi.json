@@ -1,12 +1,12 @@
 [
   {
     "empresa": "Galp Energia",
-    "cotacao": "17.46",
+    "cotacao": "17.48",
     "maximo": "17.59",
     "minimo": "17.26",
-    "variacao_pct": "+0.92%",
-    "volume": "598.45K",
-    "hora": "11:40:06"
+    "variacao_pct": "+1.04%",
+    "volume": "603.06K",
+    "hora": "11:44:44"
   },
   {
     "empresa": "Jeronimo Martins",
@@ -19,12 +19,12 @@
   },
   {
     "empresa": "EDP",
-    "cotacao": "4.319",
+    "cotacao": "4.318",
     "maximo": "4.361",
     "minimo": "4.316",
-    "variacao_pct": "-0.67%",
+    "variacao_pct": "-0.69%",
     "volume": "1.83M",
-    "hora": "11:41:34"
+    "hora": "11:44:39"
   },
   {
     "empresa": "Altri",
@@ -37,12 +37,12 @@
   },
   {
     "empresa": "Banco Comercial",
-    "cotacao": "0.7654",
+    "cotacao": "0.7644",
     "maximo": "0.7684",
     "minimo": "0.7536",
-    "variacao_pct": "+0.84%",
-    "volume": "38.86M",
-    "hora": "11:40:29"
+    "variacao_pct": "+0.71%",
+    "volume": "38.95M",
+    "hora": "11:42:49"
   },
   {
     "empresa": "The Navigator",
@@ -50,17 +50,17 @@
     "maximo": "3.020",
     "minimo": "2.998",
     "variacao_pct": "+0.67%",
-    "volume": "580.73K",
+    "volume": "591.61K",
     "hora": "11:42:54"
   },
   {
     "empresa": "Mota Engil",
-    "cotacao": "6.075",
+    "cotacao": "6.070",
     "maximo": "6.190",
     "minimo": "6.065",
-    "variacao_pct": "-1.14%",
-    "volume": "635.82K",
-    "hora": "11:40:31"
+    "variacao_pct": "-1.22%",
+    "volume": "640.35K",
+    "hora": "11:42:32"
   },
   {
     "empresa": "REN",
