@@ -1,30 +1,30 @@
 [
   {
     "empresa": "Galp Energia",
-    "cotacao": "17.58",
+    "cotacao": "17.57",
     "maximo": "17.69",
     "minimo": "17.52",
-    "variacao_pct": "+1.03%",
-    "volume": "253.09K",
-    "hora": "05:28:18"
+    "variacao_pct": "+1.01%",
+    "volume": "254.75K",
+    "hora": "05:30:09"
   },
   {
     "empresa": "Jeronimo Martins",
-    "cotacao": "22.46",
+    "cotacao": "22.42",
     "maximo": "22.66",
     "minimo": "22.34",
-    "variacao_pct": "+0.54%",
-    "volume": "127.82K",
-    "hora": "05:13:23"
+    "variacao_pct": "+0.36%",
+    "volume": "132.07K",
+    "hora": "05:29:29"
   },
   {
     "empresa": "EDP",
-    "cotacao": "4.291",
+    "cotacao": "4.290",
     "maximo": "4.327",
     "minimo": "4.287",
-    "variacao_pct": "-0.44%",
-    "volume": "428.7K",
-    "hora": "05:28:05"
+    "variacao_pct": "-0.46%",
+    "volume": "462.14K",
+    "hora": "05:29:26"
   },
   {
     "empresa": "Altri",
@@ -32,8 +32,8 @@
     "maximo": "4.945",
     "minimo": "4.890",
     "variacao_pct": "-0.51%",
-    "volume": "147.26K",
-    "hora": "05:27:40"
+    "volume": "148.26K",
+    "hora": "05:29:28"
   },
   {
     "empresa": "Banco Comercial",
@@ -95,17 +95,17 @@
     "maximo": "3.770",
     "minimo": "3.730",
     "variacao_pct": "-0.53%",
-    "volume": "91.99K",
-    "hora": "05:24:46"
+    "volume": "96.99K",
+    "hora": "05:29:12"
   },
   {
     "empresa": "EDP Renovaveis",
-    "cotacao": "12.73",
+    "cotacao": "12.72",
     "maximo": "12.82",
     "minimo": "12.68",
-    "variacao_pct": "+0.39%",
-    "volume": "67.97K",
-    "hora": "05:28:05"
+    "variacao_pct": "+0.32%",
+    "volume": "68.78K",
+    "hora": "05:30:17"
   },
   {
     "empresa": "Corticeira Amorim",
@@ -127,11 +127,11 @@
   },
   {
     "empresa": "CTT Correios de Portugal SA",
-    "cotacao": "7.17",
+    "cotacao": "7.16",
     "maximo": "7.53",
     "minimo": "7.12",
-    "variacao_pct": "-5.03%",
-    "volume": "774.21K",
-    "hora": "05:26:16"
+    "variacao_pct": "-5.17%",
+    "volume": "775.07K",
+    "hora": "05:28:57"
   }
 ]
