@@ -4,9 +4,9 @@
     "cotacao": "17.38",
     "maximo": "17.65",
     "minimo": "17.33",
-    "variacao_pct": "-2.03%",
-    "volume": "256.8K",
-    "hora": "06:18:28"
+    "variacao_pct": "-2.06%",
+    "volume": "255.84K",
+    "hora": "06:16:38"
   },
   {
     "empresa": "Jeronimo Martins",
@@ -14,8 +14,8 @@
     "maximo": "22.24",
     "minimo": "21.78",
     "variacao_pct": "-2.07%",
-    "volume": "179.66K",
-    "hora": "06:17:56"
+    "volume": "176.41K",
+    "hora": "06:14:05"
   },
   {
     "empresa": "EDP",
@@ -23,8 +23,8 @@
     "maximo": "4.318",
     "minimo": "4.290",
     "variacao_pct": "-0.21%",
-    "volume": "707.32K",
-    "hora": "06:17:47"
+    "volume": "705.9K",
+    "hora": "06:17:19"
   },
   {
     "empresa": "Altri",
@@ -37,12 +37,12 @@
   },
   {
     "empresa": "Banco Comercial",
-    "cotacao": "0.7510",
+    "cotacao": "0.7512",
     "maximo": "0.7586",
     "minimo": "0.7480",
-    "variacao_pct": "-1.70%",
-    "volume": "20.22M",
-    "hora": "06:18:07"
+    "variacao_pct": "-1.68%",
+    "volume": "20.21M",
+    "hora": "06:16:49"
   },
   {
     "empresa": "The Navigator",
@@ -50,17 +50,17 @@
     "maximo": "3.004",
     "minimo": "2.980",
     "variacao_pct": "-1.13%",
-    "volume": "615.97K",
-    "hora": "06:18:23"
+    "volume": "615.83K",
+    "hora": "06:15:46"
   },
   {
     "empresa": "Mota Engil",
-    "cotacao": "5.760",
+    "cotacao": "5.765",
     "maximo": "5.850",
     "minimo": "5.710",
-    "variacao_pct": "-2.29%",
-    "volume": "517.95K",
-    "hora": "06:18:18"
+    "variacao_pct": "-2.21%",
+    "volume": "507.11K",
+    "hora": "06:16:32"
   },
   {
     "empresa": "REN",
@@ -95,8 +95,8 @@
     "maximo": "3.715",
     "minimo": "3.640",
     "variacao_pct": "-1.75%",
-    "volume": "372.07K",
-    "hora": "06:17:34"
+    "volume": "363.82K",
+    "hora": "06:14:34"
   },
   {
     "empresa": "EDP Renovaveis",
@@ -109,12 +109,12 @@
   },
   {
     "empresa": "Corticeira Amorim",
-    "cotacao": "6.89",
+    "cotacao": "6.88",
     "maximo": "7.11",
     "minimo": "6.78",
-    "variacao_pct": "-5.87%",
-    "volume": "454.5K",
-    "hora": "06:18:36"
+    "variacao_pct": "-6.01%",
+    "volume": "453.8K",
+    "hora": "06:14:12"
   },
   {
     "empresa": "Ibersol",
