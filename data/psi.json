@@ -4,27 +4,27 @@
     "cotacao": "17.54",
     "maximo": "17.65",
     "minimo": "17.33",
-    "variacao_pct": "-1.16%",
-    "volume": "510.36K",
-    "hora": "10:38:51"
+    "variacao_pct": "-1.13%",
+    "volume": "512.1K",
+    "hora": "10:40:35"
   },
   {
     "empresa": "Jeronimo Martins",
-    "cotacao": "21.92",
+    "cotacao": "21.94",
     "maximo": "22.24",
     "minimo": "21.74",
-    "variacao_pct": "-1.53%",
-    "volume": "570.18K",
-    "hora": "10:37:57"
+    "variacao_pct": "-1.44%",
+    "volume": "574.2K",
+    "hora": "10:42:20"
   },
   {
     "empresa": "EDP",
-    "cotacao": "4.344",
+    "cotacao": "4.342",
     "maximo": "4.347",
     "minimo": "4.290",
-    "variacao_pct": "+0.46%",
-    "volume": "1.4M",
-    "hora": "10:38:00"
+    "variacao_pct": "+0.42%",
+    "volume": "1.42M",
+    "hora": "10:41:14"
   },
   {
     "empresa": "Altri",
@@ -73,12 +73,12 @@
   },
   {
     "empresa": "Semapa",
-    "cotacao": "17.56",
+    "cotacao": "17.54",
     "maximo": "17.86",
     "minimo": "17.46",
-    "variacao_pct": "-1.57%",
+    "variacao_pct": "-1.68%",
     "volume": "32.31K",
-    "hora": "10:28:08"
+    "hora": "10:40:10"
   },
   {
     "empresa": "Sonae",
@@ -91,30 +91,30 @@
   },
   {
     "empresa": "Nos SGPS SA",
-    "cotacao": "3.660",
+    "cotacao": "3.650",
     "maximo": "3.715",
     "minimo": "3.640",
-    "variacao_pct": "-1.75%",
-    "volume": "667.5K",
-    "hora": "10:35:44"
+    "variacao_pct": "-2.01%",
+    "volume": "678.37K",
+    "hora": "10:41:55"
   },
   {
     "empresa": "EDP Renovaveis",
-    "cotacao": "12.96",
+    "cotacao": "12.95",
     "maximo": "12.97",
     "minimo": "12.79",
-    "variacao_pct": "+0.15%",
-    "volume": "331.15K",
-    "hora": "10:38:15"
+    "variacao_pct": "+0.08%",
+    "volume": "337.23K",
+    "hora": "10:40:14"
   },
   {
     "empresa": "Corticeira Amorim",
-    "cotacao": "6.88",
+    "cotacao": "6.89",
     "maximo": "7.11",
     "minimo": "6.78",
-    "variacao_pct": "-6.01%",
-    "volume": "752.98K",
-    "hora": "10:36:51"
+    "variacao_pct": "-5.87%",
+    "volume": "756.86K",
+    "hora": "10:40:18"
   },
   {
     "empresa": "Ibersol",
