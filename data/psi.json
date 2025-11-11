@@ -1,30 +1,30 @@
 [
   {
     "empresa": "Galp Energia",
-    "cotacao": "17.84",
+    "cotacao": "17.83",
     "maximo": "17.86",
     "minimo": "17.63",
-    "variacao_pct": "+1.54%",
-    "volume": "162.38K",
-    "hora": "04:48:54"
+    "variacao_pct": "+1.51%",
+    "volume": "165.09K",
+    "hora": "04:56:27"
   },
   {
     "empresa": "Jeronimo Martins",
     "cotacao": "22.06",
-    "maximo": "22.06",
+    "maximo": "22.08",
     "minimo": "21.78",
     "variacao_pct": "+0.82%",
-    "volume": "94.22K",
-    "hora": "04:47:05"
+    "volume": "95.52K",
+    "hora": "04:58:00"
   },
   {
     "empresa": "EDP",
-    "cotacao": "3.792",
+    "cotacao": "3.809",
     "maximo": "3.861",
     "minimo": "3.770",
-    "variacao_pct": "-4.41%",
-    "volume": "6.43M",
-    "hora": "04:49:02"
+    "variacao_pct": "-3.98%",
+    "volume": "6.58M",
+    "hora": "04:57:26"
   },
   {
     "empresa": "Altri",
@@ -37,12 +37,12 @@
   },
   {
     "empresa": "Banco Comercial",
-    "cotacao": "0.8014",
+    "cotacao": "0.8010",
     "maximo": "0.8032",
     "minimo": "0.7950",
-    "variacao_pct": "+0.53%",
-    "volume": "24.4M",
-    "hora": "04:47:37"
+    "variacao_pct": "+0.48%",
+    "volume": "24.63M",
+    "hora": "04:57:42"
   },
   {
     "empresa": "The Navigator",
@@ -50,8 +50,8 @@
     "maximo": "3.050",
     "minimo": "3.038",
     "variacao_pct": "+0.13%",
-    "volume": "83.54K",
-    "hora": "04:48:07"
+    "volume": "101.08K",
+    "hora": "04:53:48"
   },
   {
     "empresa": "Mota Engil",
@@ -86,8 +86,8 @@
     "maximo": "1.4520",
     "minimo": "1.4180",
     "variacao_pct": "-1.25%",
-    "volume": "692.18K",
-    "hora": "04:48:43"
+    "volume": "693.7K",
+    "hora": "04:53:31"
   },
   {
     "empresa": "Nos SGPS SA",
@@ -100,12 +100,12 @@
   },
   {
     "empresa": "EDP Renovaveis",
-    "cotacao": "11.90",
+    "cotacao": "11.89",
     "maximo": "11.98",
     "minimo": "11.76",
-    "variacao_pct": "-0.83%",
-    "volume": "160.18K",
-    "hora": "04:48:45"
+    "variacao_pct": "-0.92%",
+    "volume": "164.58K",
+    "hora": "04:57:05"
   },
   {
     "empresa": "Corticeira Amorim",
