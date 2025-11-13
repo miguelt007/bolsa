@@ -10,21 +10,21 @@
   },
   {
     "empresa": "Jeronimo Martins",
-    "cotacao": "22.14",
+    "cotacao": "22.16",
     "maximo": "22.26",
     "minimo": "22.08",
-    "variacao_pct": "+0.27%",
-    "volume": "159.83K",
-    "hora": "06:25:17"
+    "variacao_pct": "+0.36%",
+    "volume": "160.15K",
+    "hora": "06:30:04"
   },
   {
     "empresa": "EDP",
-    "cotacao": "3.864",
+    "cotacao": "3.865",
     "maximo": "3.889",
     "minimo": "3.825",
-    "variacao_pct": "+0.99%",
-    "volume": "3.98M",
-    "hora": "06:28:39"
+    "variacao_pct": "+1.02%",
+    "volume": "3.99M",
+    "hora": "06:30:08"
   },
   {
     "empresa": "Altri",
@@ -46,12 +46,12 @@
   },
   {
     "empresa": "The Navigator",
-    "cotacao": "3.066",
+    "cotacao": "3.068",
     "maximo": "3.070",
     "minimo": "3.054",
-    "variacao_pct": "+0.33%",
-    "volume": "262.24K",
-    "hora": "06:25:43"
+    "variacao_pct": "+0.39%",
+    "volume": "266.32K",
+    "hora": "06:29:48"
   },
   {
     "empresa": "Mota Engil",
@@ -82,21 +82,21 @@
   },
   {
     "empresa": "Sonae",
-    "cotacao": "1.4840",
+    "cotacao": "1.4820",
     "maximo": "1.5340",
     "minimo": "1.4760",
-    "variacao_pct": "+2.63%",
+    "variacao_pct": "+2.49%",
     "volume": "2.95M",
-    "hora": "06:25:52"
+    "hora": "06:29:20"
   },
   {
     "empresa": "Nos SGPS SA",
-    "cotacao": "3.650",
+    "cotacao": "3.655",
     "maximo": "3.660",
     "minimo": "3.615",
-    "variacao_pct": "+1.11%",
-    "volume": "208.64K",
-    "hora": "06:25:17"
+    "variacao_pct": "+1.25%",
+    "volume": "209.87K",
+    "hora": "06:29:48"
   },
   {
     "empresa": "EDP Renovaveis",
