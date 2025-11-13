@@ -4,45 +4,45 @@
     "cotacao": "18.09",
     "maximo": "18.15",
     "minimo": "18.05",
-    "variacao_pct": "-0.11%",
-    "volume": "140.96K",
-    "hora": "05:15:51"
+    "variacao_pct": "-0.14%",
+    "volume": "168.07K",
+    "hora": "05:49:41"
   },
   {
     "empresa": "Jeronimo Martins",
-    "cotacao": "22.12",
+    "cotacao": "22.16",
     "maximo": "22.26",
-    "minimo": "22.12",
-    "variacao_pct": "+0.18%",
-    "volume": "127.22K",
-    "hora": "05:09:24"
+    "minimo": "22.08",
+    "variacao_pct": "+0.36%",
+    "volume": "141.71K",
+    "hora": "05:48:00"
   },
   {
     "empresa": "EDP",
-    "cotacao": "3.868",
+    "cotacao": "3.862",
     "maximo": "3.889",
     "minimo": "3.825",
-    "variacao_pct": "+1.10%",
-    "volume": "3.3M",
-    "hora": "05:19:26"
+    "variacao_pct": "+0.94%",
+    "volume": "3.56M",
+    "hora": "05:50:05"
   },
   {
     "empresa": "Altri",
-    "cotacao": "4.880",
+    "cotacao": "4.885",
     "maximo": "4.930",
-    "minimo": "4.880",
-    "variacao_pct": "-0.41%",
-    "volume": "177.33K",
-    "hora": "05:18:03"
+    "minimo": "4.875",
+    "variacao_pct": "-0.31%",
+    "volume": "227.82K",
+    "hora": "05:49:00"
   },
   {
     "empresa": "Banco Comercial",
-    "cotacao": "0.8102",
+    "cotacao": "0.8110",
     "maximo": "0.8166",
     "minimo": "0.8080",
-    "variacao_pct": "+0.07%",
-    "volume": "11.19M",
-    "hora": "05:16:46"
+    "variacao_pct": "+0.17%",
+    "volume": "13.41M",
+    "hora": "05:49:59"
   },
   {
     "empresa": "The Navigator",
@@ -50,26 +50,26 @@
     "maximo": "3.070",
     "minimo": "3.054",
     "variacao_pct": "-0.07%",
-    "volume": "143.53K",
-    "hora": "05:09:58"
+    "volume": "168.67K",
+    "hora": "05:50:31"
   },
   {
     "empresa": "Mota Engil",
-    "cotacao": "5.870",
-    "maximo": "5.965",
+    "cotacao": "6.000",
+    "maximo": "6.000",
     "minimo": "5.810",
-    "variacao_pct": "+1.21%",
-    "volume": "919.78K",
-    "hora": "05:07:02"
+    "variacao_pct": "+3.45%",
+    "volume": "1.41M",
+    "hora": "05:50:03"
   },
   {
     "empresa": "REN",
-    "cotacao": "3.380",
+    "cotacao": "3.390",
     "maximo": "3.400",
     "minimo": "3.350",
-    "variacao_pct": "+0.30%",
-    "volume": "61.1K",
-    "hora": "05:17:13"
+    "variacao_pct": "+0.59%",
+    "volume": "178.37K",
+    "hora": "05:47:30"
   },
   {
     "empresa": "Semapa",
@@ -82,30 +82,30 @@
   },
   {
     "empresa": "Sonae",
-    "cotacao": "1.4800",
+    "cotacao": "1.4860",
     "maximo": "1.5340",
-    "minimo": "1.4780",
-    "variacao_pct": "+2.35%",
-    "volume": "2.74M",
-    "hora": "05:19:03"
+    "minimo": "1.4760",
+    "variacao_pct": "+2.77%",
+    "volume": "2.88M",
+    "hora": "05:49:22"
   },
   {
     "empresa": "Nos SGPS SA",
-    "cotacao": "3.640",
+    "cotacao": "3.650",
     "maximo": "3.660",
     "minimo": "3.615",
-    "variacao_pct": "+0.83%",
-    "volume": "194.21K",
-    "hora": "05:18:09"
+    "variacao_pct": "+1.11%",
+    "volume": "203.54K",
+    "hora": "05:50:34"
   },
   {
     "empresa": "EDP Renovaveis",
     "cotacao": "11.78",
     "maximo": "12.08",
-    "minimo": "11.77",
+    "minimo": "11.76",
     "variacao_pct": "-0.17%",
-    "volume": "247.71K",
-    "hora": "05:17:04"
+    "volume": "271.25K",
+    "hora": "05:47:53"
   },
   {
     "empresa": "Corticeira Amorim",
@@ -113,8 +113,8 @@
     "maximo": "6.67",
     "minimo": "6.57",
     "variacao_pct": "0.00%",
-    "volume": "42.91K",
-    "hora": "05:08:51"
+    "volume": "48.39K",
+    "hora": "05:50:23"
   },
   {
     "empresa": "Ibersol",
@@ -122,16 +122,16 @@
     "maximo": "10.50",
     "minimo": "10.30",
     "variacao_pct": "+1.45%",
-    "volume": "9.9K",
-    "hora": "04:43:02"
+    "volume": "10.59K",
+    "hora": "05:42:28"
   },
   {
     "empresa": "CTT Correios de Portugal SA",
-    "cotacao": "7.34",
+    "cotacao": "7.36",
     "maximo": "7.38",
     "minimo": "7.31",
-    "variacao_pct": "0.00%",
-    "volume": "29.26K",
-    "hora": "05:14:47"
+    "variacao_pct": "+0.27%",
+    "volume": "29.86K",
+    "hora": "05:45:32"
   }
 ]
