@@ -91,12 +91,12 @@
   },
   {
     "empresa": "Nos SGPS SA",
-    "cotacao": "3.695",
+    "cotacao": "3.690",
     "maximo": "3.710",
     "minimo": "3.675",
-    "variacao_pct": "+0.82%",
-    "volume": "202.25K",
-    "hora": "08:43:57"
+    "variacao_pct": "+0.68%",
+    "volume": "203.95K",
+    "hora": "08:49:32"
   },
   {
     "empresa": "EDP Renovaveis",
@@ -127,11 +127,11 @@
   },
   {
     "empresa": "CTT Correios de Portugal SA",
-    "cotacao": "7.06",
+    "cotacao": "7.07",
     "maximo": "7.08",
     "minimo": "7.03",
-    "variacao_pct": "0.00%",
-    "volume": "71.74K",
-    "hora": "08:37:36"
+    "variacao_pct": "+0.14%",
+    "volume": "72.74K",
+    "hora": "08:46:53"
   }
 ]
