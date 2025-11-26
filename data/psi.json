@@ -19,12 +19,12 @@
   },
   {
     "empresa": "EDP",
-    "cotacao": "3.787",
+    "cotacao": "3.781",
     "maximo": "3.799",
     "minimo": "3.770",
-    "variacao_pct": "+0.45%",
-    "volume": "610.69K",
-    "hora": "03:26:49"
+    "variacao_pct": "+0.29%",
+    "volume": "621.83K",
+    "hora": "03:31:18"
   },
   {
     "empresa": "Altri",
@@ -73,12 +73,12 @@
   },
   {
     "empresa": "Semapa",
-    "cotacao": "16.76",
+    "cotacao": "16.74",
     "maximo": "16.76",
     "minimo": "16.60",
-    "variacao_pct": "+1.09%",
-    "volume": "2.46K",
-    "hora": "03:24:51"
+    "variacao_pct": "+0.97%",
+    "volume": "2.96K",
+    "hora": "03:26:34"
   },
   {
     "empresa": "Sonae",
@@ -113,8 +113,8 @@
     "maximo": "6.65",
     "minimo": "6.62",
     "variacao_pct": "+0.30%",
-    "volume": "29.57K",
-    "hora": "03:24:06"
+    "volume": "33.85K",
+    "hora": "03:26:09"
   },
   {
     "empresa": "Ibersol",
