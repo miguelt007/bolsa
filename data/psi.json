@@ -4,9 +4,9 @@
     "cotacao": "17.36",
     "maximo": "17.36",
     "minimo": "17.04",
-    "variacao_pct": "+1.20%",
-    "volume": "311.24K",
-    "hora": "09:33:28"
+    "variacao_pct": "+1.22%",
+    "volume": "311.25K",
+    "hora": "09:34:05"
   },
   {
     "empresa": "Jeronimo Martins",
@@ -14,17 +14,17 @@
     "maximo": "21.22",
     "minimo": "21.04",
     "variacao_pct": "-0.09%",
-    "volume": "94.59K",
-    "hora": "09:31:50"
+    "volume": "95.13K",
+    "hora": "09:34:10"
   },
   {
     "empresa": "EDP",
-    "cotacao": "3.826",
+    "cotacao": "3.825",
     "maximo": "3.832",
     "minimo": "3.801",
-    "variacao_pct": "+0.63%",
-    "volume": "1.31M",
-    "hora": "09:32:34"
+    "variacao_pct": "+0.60%",
+    "volume": "1.32M",
+    "hora": "09:33:50"
   },
   {
     "empresa": "Altri",
@@ -37,12 +37,12 @@
   },
   {
     "empresa": "Banco Comercial",
-    "cotacao": "0.8244",
+    "cotacao": "0.8248",
     "maximo": "0.8250",
     "minimo": "0.8168",
-    "variacao_pct": "+0.22%",
-    "volume": "23.35M",
-    "hora": "09:32:46"
+    "variacao_pct": "+0.27%",
+    "volume": "23.37M",
+    "hora": "09:35:58"
   },
   {
     "empresa": "The Navigator",
@@ -50,8 +50,8 @@
     "maximo": "3.086",
     "minimo": "3.036",
     "variacao_pct": "-0.13%",
-    "volume": "366.71K",
-    "hora": "09:32:53"
+    "volume": "369.09K",
+    "hora": "09:34:52"
   },
   {
     "empresa": "Mota Engil",
@@ -86,8 +86,8 @@
     "maximo": "1.4900",
     "minimo": "1.4800",
     "variacao_pct": "0.00%",
-    "volume": "531.79K",
-    "hora": "09:16:25"
+    "volume": "532.4K",
+    "hora": "09:34:30"
   },
   {
     "empresa": "Nos SGPS SA",
@@ -105,7 +105,7 @@
     "minimo": "11.43",
     "variacao_pct": "-0.09%",
     "volume": "139.12K",
-    "hora": "09:25:57"
+    "hora": "09:34:38"
   },
   {
     "empresa": "Corticeira Amorim",
