@@ -4,27 +4,27 @@
     "cotacao": "17.43",
     "maximo": "17.47",
     "minimo": "17.31",
-    "variacao_pct": "+0.58%",
-    "volume": "267.3K",
-    "hora": "10:21:44"
+    "variacao_pct": "+0.61%",
+    "volume": "267.31K",
+    "hora": "10:23:30"
   },
   {
     "empresa": "Jeronimo Martins",
-    "cotacao": "20.40",
+    "cotacao": "20.44",
     "maximo": "20.92",
     "minimo": "20.34",
-    "variacao_pct": "-2.58%",
-    "volume": "411.75K",
-    "hora": "10:20:50"
+    "variacao_pct": "-2.39%",
+    "volume": "424.35K",
+    "hora": "10:26:50"
   },
   {
     "empresa": "EDP",
-    "cotacao": "3.839",
+    "cotacao": "3.837",
     "maximo": "3.839",
     "minimo": "3.802",
-    "variacao_pct": "+0.66%",
-    "volume": "2.47M",
-    "hora": "10:21:40"
+    "variacao_pct": "+0.60%",
+    "volume": "2.5M",
+    "hora": "10:26:46"
   },
   {
     "empresa": "Altri",
@@ -64,12 +64,12 @@
   },
   {
     "empresa": "REN",
-    "cotacao": "3.315",
+    "cotacao": "3.320",
     "maximo": "3.320",
     "minimo": "3.295",
-    "variacao_pct": "+0.61%",
-    "volume": "160.47K",
-    "hora": "10:06:00"
+    "variacao_pct": "+0.76%",
+    "volume": "162.13K",
+    "hora": "10:20:48"
   },
   {
     "empresa": "Semapa",
@@ -114,7 +114,7 @@
     "minimo": "6.67",
     "variacao_pct": "+0.15%",
     "volume": "42.28K",
-    "hora": "10:19:09"
+    "hora": "10:20:31"
   },
   {
     "empresa": "Ibersol",
