@@ -1,12 +1,12 @@
 [
   {
     "empresa": "Galp Energia",
-    "cotacao": "17.42",
+    "cotacao": "17.44",
     "maximo": "17.49",
     "minimo": "17.36",
-    "variacao_pct": "+0.29%",
-    "volume": "55.37K",
-    "hora": "05:28:36"
+    "variacao_pct": "+0.40%",
+    "volume": "58.72K",
+    "hora": "05:31:41"
   },
   {
     "empresa": "Jeronimo Martins",
@@ -14,17 +14,17 @@
     "maximo": "20.66",
     "minimo": "20.48",
     "variacao_pct": "-0.29%",
-    "volume": "67.28K",
-    "hora": "05:27:18"
+    "volume": "75.93K",
+    "hora": "05:30:15"
   },
   {
     "empresa": "EDP",
-    "cotacao": "3.872",
+    "cotacao": "3.871",
     "maximo": "3.875",
     "minimo": "3.818",
-    "variacao_pct": "+1.41%",
-    "volume": "1.58M",
-    "hora": "05:28:06"
+    "variacao_pct": "+1.39%",
+    "volume": "1.6M",
+    "hora": "05:30:22"
   },
   {
     "empresa": "Altri",
@@ -64,12 +64,12 @@
   },
   {
     "empresa": "REN",
-    "cotacao": "3.320",
+    "cotacao": "3.315",
     "maximo": "3.325",
     "minimo": "3.305",
-    "variacao_pct": "+0.30%",
-    "volume": "56.8K",
-    "hora": "05:16:26"
+    "variacao_pct": "+0.15%",
+    "volume": "56.95K",
+    "hora": "05:29:52"
   },
   {
     "empresa": "Semapa",
@@ -131,7 +131,7 @@
     "maximo": "7.20",
     "minimo": "7.05",
     "variacao_pct": "+1.13%",
-    "volume": "107.05K",
-    "hora": "05:26:29"
+    "volume": "107.45K",
+    "hora": "05:28:42"
   }
 ]
