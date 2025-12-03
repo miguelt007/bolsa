@@ -1,12 +1,12 @@
 [
   {
     "empresa": "Galp Energia",
-    "cotacao": "17.60",
+    "cotacao": "17.63",
     "maximo": "17.63",
     "minimo": "17.36",
-    "variacao_pct": "+1.03%",
-    "volume": "745.82K",
-    "hora": "11:29:51"
+    "variacao_pct": "+1.23%",
+    "volume": "1.24M",
+    "hora": "11:35:09"
   },
   {
     "empresa": "Jeronimo Martins",
@@ -100,12 +100,12 @@
   },
   {
     "empresa": "EDP Renovaveis",
-    "cotacao": "11.91",
+    "cotacao": "11.86",
     "maximo": "12.19",
-    "minimo": "11.87",
-    "variacao_pct": "+0.34%",
-    "volume": "601.38K",
-    "hora": "11:29:33"
+    "minimo": "11.86",
+    "variacao_pct": "-0.08%",
+    "volume": "1.15M",
+    "hora": "11:35:59"
   },
   {
     "empresa": "Corticeira Amorim",
@@ -122,8 +122,8 @@
     "maximo": "10.05",
     "minimo": "9.88",
     "variacao_pct": "+1.11%",
-    "volume": "10.26K",
-    "hora": "11:15:14"
+    "volume": "13.88K",
+    "hora": "11:35:19"
   },
   {
     "empresa": "CTT Correios de Portugal SA",
