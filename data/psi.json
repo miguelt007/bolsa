@@ -126,6 +126,15 @@
     "hora": "05/12"
   },
   {
+    "empresa": "Teixeira Duarte",
+    "cotacao": "0.6800",
+    "maximo": "0.7000",
+    "minimo": "0.6800",
+    "variacao_pct": "-1.45%",
+    "volume": "2.45M",
+    "hora": "05/12"
+  },
+  {
     "empresa": "CTT Correios de Portugal SA",
     "cotacao": "7.31",
     "maximo": "7.36",
