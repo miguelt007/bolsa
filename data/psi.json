@@ -64,21 +64,21 @@
   },
   {
     "empresa": "REN",
-    "cotacao": "3.265",
+    "cotacao": "3.275",
     "maximo": "3.285",
     "minimo": "3.260",
-    "variacao_pct": "-0.31%",
-    "volume": "389.39K",
-    "hora": "11:27:49"
+    "variacao_pct": "0.00%",
+    "volume": "629.01K",
+    "hora": "11:35:11"
   },
   {
     "empresa": "Semapa",
-    "cotacao": "16.86",
+    "cotacao": "16.80",
     "maximo": "17.06",
     "minimo": "16.80",
-    "variacao_pct": "-1.17%",
-    "volume": "6.86K",
-    "hora": "11:20:02"
+    "variacao_pct": "-1.52%",
+    "volume": "11.43K",
+    "hora": "11:35:21"
   },
   {
     "empresa": "Sonae",
@@ -136,11 +136,11 @@
   },
   {
     "empresa": "CTT Correios de Portugal SA",
-    "cotacao": "7.30",
+    "cotacao": "7.29",
     "maximo": "7.45",
     "minimo": "7.27",
-    "variacao_pct": "-0.27%",
-    "volume": "103.22K",
-    "hora": "11:15:22"
+    "variacao_pct": "-0.41%",
+    "volume": "172.67K",
+    "hora": "11:35:12"
   }
 ]
