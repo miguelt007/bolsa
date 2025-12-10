@@ -3,37 +3,37 @@
     "empresa": "Galp Energia",
     "cotacao": "14.77",
     "maximo": "15.06",
-    "minimo": "14.75",
-    "variacao_pct": "-0.17%",
-    "volume": "247.06K",
-    "hora": "03:13:47"
+    "minimo": "14.74",
+    "variacao_pct": "-0.14%",
+    "volume": "255.68K",
+    "hora": "03:15:03"
   },
   {
     "empresa": "Jeronimo Martins",
-    "cotacao": "19.80",
+    "cotacao": "19.79",
     "maximo": "19.94",
     "minimo": "19.79",
-    "variacao_pct": "-1.10%",
-    "volume": "29.52K",
-    "hora": "03:14:05"
+    "variacao_pct": "-1.15%",
+    "volume": "30.63K",
+    "hora": "03:15:50"
   },
   {
     "empresa": "EDP",
-    "cotacao": "3.811",
+    "cotacao": "3.815",
     "maximo": "3.834",
     "minimo": "3.802",
-    "variacao_pct": "-0.39%",
-    "volume": "77.44K",
-    "hora": "03:13:04"
+    "variacao_pct": "-0.29%",
+    "volume": "77.89K",
+    "hora": "03:14:53"
   },
   {
     "empresa": "Altri",
-    "cotacao": "4.330",
+    "cotacao": "4.320",
     "maximo": "4.380",
-    "minimo": "4.330",
-    "variacao_pct": "-0.92%",
-    "volume": "30.14K",
-    "hora": "03:11:52"
+    "minimo": "4.320",
+    "variacao_pct": "-1.14%",
+    "volume": "30.15K",
+    "hora": "03:17:18"
   },
   {
     "empresa": "Banco Comercial",
@@ -46,12 +46,12 @@
   },
   {
     "empresa": "The Navigator",
-    "cotacao": "3.006",
+    "cotacao": "3.008",
     "maximo": "3.034",
     "minimo": "3.006",
-    "variacao_pct": "-0.99%",
-    "volume": "50.82K",
-    "hora": "03:11:00"
+    "variacao_pct": "-0.92%",
+    "volume": "53.47K",
+    "hora": "03:16:06"
   },
   {
     "empresa": "Mota Engil",
@@ -64,12 +64,12 @@
   },
   {
     "empresa": "REN",
-    "cotacao": "3.265",
+    "cotacao": "3.270",
     "maximo": "3.275",
     "minimo": "3.260",
-    "variacao_pct": "-0.31%",
-    "volume": "21.53K",
-    "hora": "03:13:16"
+    "variacao_pct": "-0.15%",
+    "volume": "25K",
+    "hora": "03:15:46"
   },
   {
     "empresa": "Semapa",
@@ -86,8 +86,8 @@
     "maximo": "1.5920",
     "minimo": "1.5840",
     "variacao_pct": "-0.13%",
-    "volume": "35.3K",
-    "hora": "03:11:51"
+    "volume": "35.6K",
+    "hora": "03:16:18"
   },
   {
     "empresa": "Nos SGPS SA",
