@@ -1,12 +1,12 @@
 [
   {
     "empresa": "Galp Energia",
-    "cotacao": "14.62",
+    "cotacao": "14.63",
     "maximo": "14.69",
     "minimo": "14.49",
-    "variacao_pct": "-0.10%",
-    "volume": "691.55K",
-    "hora": "10:19:27"
+    "variacao_pct": "0.00%",
+    "volume": "727.71K",
+    "hora": "10:28:12"
   },
   {
     "empresa": "Jeronimo Martins",
@@ -14,17 +14,17 @@
     "maximo": "20.44",
     "minimo": "20.24",
     "variacao_pct": "+0.20%",
-    "volume": "142.37K",
-    "hora": "10:18:59"
+    "volume": "144.82K",
+    "hora": "10:23:19"
   },
   {
     "empresa": "EDP",
-    "cotacao": "4.013",
-    "maximo": "4.014",
+    "cotacao": "4.012",
+    "maximo": "4.015",
     "minimo": "3.915",
-    "variacao_pct": "+2.50%",
-    "volume": "3.03M",
-    "hora": "10:19:23"
+    "variacao_pct": "+2.48%",
+    "volume": "3.09M",
+    "hora": "10:27:51"
   },
   {
     "empresa": "Altri",
@@ -32,17 +32,17 @@
     "maximo": "4.590",
     "minimo": "4.480",
     "variacao_pct": "+1.56%",
-    "volume": "179.03K",
-    "hora": "10:04:07"
+    "volume": "180.77K",
+    "hora": "10:22:13"
   },
   {
     "empresa": "Banco Comercial",
-    "cotacao": "0.9026",
+    "cotacao": "0.9036",
     "maximo": "0.9040",
     "minimo": "0.8868",
-    "variacao_pct": "+0.71%",
-    "volume": "41.92M",
-    "hora": "10:19:42"
+    "variacao_pct": "+0.83%",
+    "volume": "42.65M",
+    "hora": "10:28:04"
   },
   {
     "empresa": "The Navigator",
@@ -51,16 +51,16 @@
     "minimo": "3.148",
     "variacao_pct": "+2.04%",
     "volume": "1.41M",
-    "hora": "10:18:25"
+    "hora": "10:21:13"
   },
   {
     "empresa": "Mota Engil",
-    "cotacao": "4.972",
+    "cotacao": "4.964",
     "maximo": "5.015",
     "minimo": "4.920",
-    "variacao_pct": "+0.49%",
-    "volume": "1.43M",
-    "hora": "10:19:28"
+    "variacao_pct": "+0.32%",
+    "volume": "1.46M",
+    "hora": "10:26:51"
   },
   {
     "empresa": "REN",
@@ -68,53 +68,53 @@
     "maximo": "3.265",
     "minimo": "3.215",
     "variacao_pct": "+1.24%",
-    "volume": "366.62K",
-    "hora": "10:13:00"
+    "volume": "372.26K",
+    "hora": "10:24:11"
   },
   {
     "empresa": "Semapa",
-    "cotacao": "21.50",
-    "maximo": "21.50",
+    "cotacao": "21.60",
+    "maximo": "21.60",
     "minimo": "20.80",
-    "variacao_pct": "+2.87%",
-    "volume": "15.37K",
-    "hora": "10:16:27"
+    "variacao_pct": "+3.35%",
+    "volume": "17.13K",
+    "hora": "10:28:01"
   },
   {
     "empresa": "Sonae",
-    "cotacao": "1.6360",
-    "maximo": "1.6360",
+    "cotacao": "1.6400",
+    "maximo": "1.6400",
     "minimo": "1.6120",
-    "variacao_pct": "+1.49%",
-    "volume": "893.6K",
-    "hora": "10:16:02"
+    "variacao_pct": "+1.74%",
+    "volume": "1.01M",
+    "hora": "10:25:30"
   },
   {
     "empresa": "Nos SGPS SA",
-    "cotacao": "4.050",
+    "cotacao": "4.060",
     "maximo": "4.060",
     "minimo": "4.010",
-    "variacao_pct": "+0.87%",
-    "volume": "286.43K",
-    "hora": "10:13:22"
+    "variacao_pct": "+1.12%",
+    "volume": "295.66K",
+    "hora": "10:26:15"
   },
   {
     "empresa": "EDP Renovaveis",
-    "cotacao": "12.50",
+    "cotacao": "12.48",
     "maximo": "12.50",
     "minimo": "12.00",
-    "variacao_pct": "+3.82%",
-    "volume": "405.01K",
-    "hora": "10:19:47"
+    "variacao_pct": "+3.65%",
+    "volume": "406.92K",
+    "hora": "10:23:01"
   },
   {
     "empresa": "Corticeira Amorim",
-    "cotacao": "6.78",
+    "cotacao": "6.79",
     "maximo": "6.81",
     "minimo": "6.63",
-    "variacao_pct": "+2.57%",
-    "volume": "147.47K",
-    "hora": "10:16:20"
+    "variacao_pct": "+2.72%",
+    "volume": "147.87K",
+    "hora": "10:22:46"
   },
   {
     "empresa": "Ibersol",
@@ -127,12 +127,12 @@
   },
   {
     "empresa": "Teixeira Duarte",
-    "cotacao": "0.6460",
+    "cotacao": "0.6440",
     "maximo": "0.6540",
     "minimo": "0.6260",
-    "variacao_pct": "+1.57%",
-    "volume": "3.8M",
-    "hora": "10:14:31"
+    "variacao_pct": "+1.26%",
+    "volume": "3.83M",
+    "hora": "10:25:18"
   },
   {
     "empresa": "CTT Correios de Portugal SA",
