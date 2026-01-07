@@ -19,12 +19,12 @@
   },
   {
     "empresa": "EDP",
-    "cotacao": "4.116",
+    "cotacao": "4.117",
     "maximo": "4.148",
     "minimo": "4.081",
-    "variacao_pct": "+1.11%",
-    "volume": "1.42M",
-    "hora": "05:40:52"
+    "variacao_pct": "+1.13%",
+    "volume": "1.43M",
+    "hora": "05:46:04"
   },
   {
     "empresa": "Altri",
@@ -59,8 +59,8 @@
     "maximo": "5.165",
     "minimo": "5.075",
     "variacao_pct": "-0.39%",
-    "volume": "460.59K",
-    "hora": "05:38:34"
+    "volume": "461.09K",
+    "hora": "05:43:14"
   },
   {
     "empresa": "REN",
@@ -82,12 +82,12 @@
   },
   {
     "empresa": "Sonae",
-    "cotacao": "1.6660",
+    "cotacao": "1.6680",
     "maximo": "1.6800",
     "minimo": "1.6660",
-    "variacao_pct": "-0.12%",
-    "volume": "395.84K",
-    "hora": "05:40:55"
+    "variacao_pct": "0.00%",
+    "volume": "398.36K",
+    "hora": "05:43:47"
   },
   {
     "empresa": "Nos SGPS SA",
@@ -95,8 +95,8 @@
     "maximo": "4.130",
     "minimo": "4.095",
     "variacao_pct": "-0.85%",
-    "volume": "142.06K",
-    "hora": "05:37:08"
+    "volume": "148.06K",
+    "hora": "05:42:18"
   },
   {
     "empresa": "EDP Renovaveis",
