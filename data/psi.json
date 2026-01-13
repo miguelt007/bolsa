@@ -4,9 +4,9 @@
     "cotacao": "16.11",
     "maximo": "16.11",
     "minimo": "15.68",
-    "variacao_pct": "+2.64%",
+    "variacao_pct": "+2.61%",
     "volume": "2.32M",
-    "hora": "11:35:19"
+    "hora": "11:35:59"
   },
   {
     "empresa": "Jeronimo Martins",
@@ -15,7 +15,7 @@
     "minimo": "20.86",
     "variacao_pct": "-0.66%",
     "volume": "890.6K",
-    "hora": "11:35:02"
+    "hora": "11:35:59"
   },
   {
     "empresa": "EDP",
@@ -24,7 +24,7 @@
     "minimo": "4.013",
     "variacao_pct": "+0.91%",
     "volume": "8.43M",
-    "hora": "11:35:16"
+    "hora": "11:35:59"
   },
   {
     "empresa": "Altri",
@@ -33,7 +33,7 @@
     "minimo": "4.520",
     "variacao_pct": "+0.22%",
     "volume": "347.38K",
-    "hora": "11:35:12"
+    "hora": "11:35:59"
   },
   {
     "empresa": "Banco Comercial",
@@ -42,7 +42,7 @@
     "minimo": "0.8760",
     "variacao_pct": "+0.86%",
     "volume": "41.47M",
-    "hora": "11:35:19"
+    "hora": "11:35:59"
   },
   {
     "empresa": "The Navigator",
@@ -51,7 +51,7 @@
     "minimo": "3.256",
     "variacao_pct": "+1.47%",
     "volume": "1.43M",
-    "hora": "11:35:27"
+    "hora": "11:35:59"
   },
   {
     "empresa": "Mota Engil",
@@ -60,7 +60,7 @@
     "minimo": "4.940",
     "variacao_pct": "-2.65%",
     "volume": "1.98M",
-    "hora": "11:35:20"
+    "hora": "11:35:59"
   },
   {
     "empresa": "REN",
@@ -69,7 +69,7 @@
     "minimo": "3.265",
     "variacao_pct": "-0.91%",
     "volume": "405.1K",
-    "hora": "11:35:13"
+    "hora": "11:35:59"
   },
   {
     "empresa": "Semapa",
@@ -78,7 +78,7 @@
     "minimo": "21.65",
     "variacao_pct": "+1.37%",
     "volume": "35.22K",
-    "hora": "11:35:12"
+    "hora": "11:35:59"
   },
   {
     "empresa": "Sonae",
@@ -87,7 +87,7 @@
     "minimo": "1.6340",
     "variacao_pct": "+0.24%",
     "volume": "1.2M",
-    "hora": "11:35:14"
+    "hora": "11:35:59"
   },
   {
     "empresa": "Nos SGPS SA",
@@ -96,7 +96,7 @@
     "minimo": "4.135",
     "variacao_pct": "+0.60%",
     "volume": "540.53K",
-    "hora": "11:35:06"
+    "hora": "11:35:59"
   },
   {
     "empresa": "EDP Renovaveis",
@@ -105,7 +105,7 @@
     "minimo": "12.42",
     "variacao_pct": "+2.57%",
     "volume": "902.88K",
-    "hora": "11:35:06"
+    "hora": "11:35:59"
   },
   {
     "empresa": "Corticeira Amorim",
@@ -114,7 +114,7 @@
     "minimo": "6.78",
     "variacao_pct": "0.00%",
     "volume": "74.74K",
-    "hora": "11:35:27"
+    "hora": "11:35:59"
   },
   {
     "empresa": "Ibersol",
@@ -123,7 +123,7 @@
     "minimo": "9.90",
     "variacao_pct": "-0.40%",
     "volume": "10.27K",
-    "hora": "11:35:04"
+    "hora": "11:35:59"
   },
   {
     "empresa": "Teixeira Duarte",
@@ -132,7 +132,7 @@
     "minimo": "0.5840",
     "variacao_pct": "-1.61%",
     "volume": "7.73M",
-    "hora": "11:35:24"
+    "hora": "11:35:59"
   },
   {
     "empresa": "CTT Correios de Portugal SA",
@@ -141,6 +141,6 @@
     "minimo": "7.21",
     "variacao_pct": "-0.68%",
     "volume": "393K",
-    "hora": "11:35:23"
+    "hora": "11:35:59"
   }
 ]
