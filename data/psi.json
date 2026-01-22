@@ -77,8 +77,8 @@
     "maximo": "22.00",
     "minimo": "21.55",
     "variacao_pct": "+2.09%",
-    "volume": "24.53K",
-    "hora": "11:27:05"
+    "volume": "28.31K",
+    "hora": "11:35:24"
   },
   {
     "empresa": "Sonae",
@@ -118,12 +118,12 @@
   },
   {
     "empresa": "Ibersol",
-    "cotacao": "10.50",
+    "cotacao": "10.40",
     "maximo": "10.70",
     "minimo": "10.35",
-    "variacao_pct": "+2.94%",
-    "volume": "27K",
-    "hora": "11:20:40"
+    "variacao_pct": "+1.96%",
+    "volume": "28.29K",
+    "hora": "11:35:06"
   },
   {
     "empresa": "Teixeira Duarte",
@@ -136,11 +136,11 @@
   },
   {
     "empresa": "CTT Correios de Portugal SA",
-    "cotacao": "7.00",
+    "cotacao": "6.96",
     "maximo": "7.02",
     "minimo": "6.90",
-    "variacao_pct": "+2.79%",
-    "volume": "241.33K",
-    "hora": "11:19:15"
+    "variacao_pct": "+2.20%",
+    "volume": "326.73K",
+    "hora": "11:35:28"
   }
 ]
