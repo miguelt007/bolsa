@@ -23,7 +23,7 @@
     "maximo": "4.397",
     "minimo": "4.321",
     "variacao_pct": "-0.64%",
-    "volume": "12.98M",
+    "volume": "13.01M",
     "hora": "11:35:14"
   },
   {
@@ -100,12 +100,12 @@
   },
   {
     "empresa": "EDP Renovaveis",
-    "cotacao": "12.79",
+    "cotacao": "12.73",
     "maximo": "13.17",
     "minimo": "12.73",
-    "variacao_pct": "+0.08%",
-    "volume": "616.08K",
-    "hora": "11:29:58"
+    "variacao_pct": "-0.39%",
+    "volume": "1.28M",
+    "hora": "11:35:25"
   },
   {
     "empresa": "Corticeira Amorim",
@@ -113,8 +113,8 @@
     "maximo": "6.78",
     "minimo": "6.69",
     "variacao_pct": "-0.15%",
-    "volume": "60.19K",
-    "hora": "11:28:00"
+    "volume": "74.28K",
+    "hora": "11:35:25"
   },
   {
     "empresa": "Ibersol",
