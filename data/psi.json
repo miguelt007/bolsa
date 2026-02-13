@@ -55,12 +55,12 @@
   },
   {
     "empresa": "Mota Engil",
-    "cotacao": "4.940",
-    "maximo": "4.944",
+    "cotacao": "4.952",
+    "maximo": "4.952",
     "minimo": "4.858",
-    "variacao_pct": "0.00%",
-    "volume": "1.36M",
-    "hora": "11:29:24"
+    "variacao_pct": "+0.24%",
+    "volume": "1.45M",
+    "hora": "11:35:16"
   },
   {
     "empresa": "REN",
@@ -140,7 +140,7 @@
     "maximo": "7.18",
     "minimo": "7.07",
     "variacao_pct": "+0.42%",
-    "volume": "194.65K",
-    "hora": "11:25:56"
+    "volume": "274.36K",
+    "hora": "11:35:08"
   }
 ]
