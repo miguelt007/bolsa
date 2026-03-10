@@ -69,7 +69,7 @@
     "minimo": "3.800",
     "variacao_pct": "+2.26%",
     "volume": "557.51K",
-    "hora": "12:35:24"
+    "hora": "12:35:59"
   },
   {
     "empresa": "Semapa",
@@ -87,7 +87,7 @@
     "minimo": "1.8960",
     "variacao_pct": "+0.74%",
     "volume": "1.68M",
-    "hora": "12:35:06"
+    "hora": "12:35:59"
   },
   {
     "empresa": "Nos SGPS SA",
@@ -114,7 +114,7 @@
     "minimo": "6.36",
     "variacao_pct": "+0.79%",
     "volume": "106.88K",
-    "hora": "12:35:07"
+    "hora": "12:35:59"
   },
   {
     "empresa": "Ibersol",
@@ -123,7 +123,7 @@
     "minimo": "10.80",
     "variacao_pct": "+0.47%",
     "volume": "12.06K",
-    "hora": "12:35:29"
+    "hora": "12:35:59"
   },
   {
     "empresa": "Teixeira Duarte",
@@ -132,7 +132,7 @@
     "minimo": "0.4700",
     "variacao_pct": "+3.03%",
     "volume": "3.15M",
-    "hora": "12:35:29"
+    "hora": "12:35:59"
   },
   {
     "empresa": "CTT Correios de Portugal SA",
@@ -141,6 +141,6 @@
     "minimo": "6.78",
     "variacao_pct": "+1.19%",
     "volume": "213.16K",
-    "hora": "12:35:14"
+    "hora": "12:35:59"
   }
 ]
